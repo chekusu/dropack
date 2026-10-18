@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "Dropack";
+"Dropack Package" = "Dropack · Pacchetto";
+"ZIP Package" = "ZIP · Pacchetto";
+"NSPhotoLibraryAddUsageDescription" = "Salva in Foto le foto, Live Photos e i video dei file selezionati, un elemento alla volta.";
+"NSPhotoLibraryUsageDescription" = "Legge gli originali delle foto e dei video scelti per creare un pacchetto sul dispositivo. Elabora solo la tua selezione.";

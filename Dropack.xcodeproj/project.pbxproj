@@ -1,0 +1,1874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		01940735AEE8728F734191AD = {
+			isa = PBXBuildFile;
+			fileRef = 0EB83AA5793FA3EEC29DB1C6;
+		};
+		01D3E75A6ED3AC35346E7103 = {
+			isa = PBXBuildFile;
+			fileRef = F191ECCE1BDB52BA4844DD8E;
+		};
+		04140E653081C95F45221E40 = {
+			isa = PBXBuildFile;
+			fileRef = BBB0E92A066671294D370568;
+		};
+		0A4B1D831F62A8F696CB4E49 = {
+			isa = PBXBuildFile;
+			fileRef = 51ECE2886349837DD0D61F1E;
+		};
+		0C7A73E72A11A95603CA6894 = {
+			isa = PBXBuildFile;
+			fileRef = 6BEEAE56699A8964ECBB0698;
+		};
+		0DDF8B72030EB7903670F9ED = {
+			isa = PBXBuildFile;
+			fileRef = 774D6CB34D78744E0DDB5BB2;
+		};
+		0F90830607F5C2382D85A4B6 = {
+			isa = PBXBuildFile;
+			fileRef = 4088D8CD2B618DAEC78D8C6A;
+		};
+		121B49188459B077924789AA = {
+			isa = PBXBuildFile;
+			fileRef = CB8DF397EF73C7A4F9253BFB;
+		};
+		13BFA639108E6543E2EE70FA = {
+			isa = PBXBuildFile;
+			fileRef = 02FED48B404F6F6EBECAF00A;
+		};
+		17F99F545F1A1892144385A3 = {
+			isa = PBXBuildFile;
+			fileRef = 234BDE9F022F174BE512B8C8;
+		};
+		1885A6BFF5657F39C6F6150C = {
+			isa = PBXBuildFile;
+			fileRef = 0FB8DFB80F9D7DD6B38F82A8;
+		};
+		1D9214C1DC9D62E6FE07F0D3 = {
+			isa = PBXBuildFile;
+			fileRef = F3C6BB7A48B61D0854B475F2;
+		};
+		1DC2E816088D30D026595AC7 = {
+			isa = PBXBuildFile;
+			fileRef = 320B18C1CE6F27F4FE1500BD;
+		};
+		24645971669E72858674A2E2 = {
+			isa = PBXBuildFile;
+			fileRef = 57A98BDDD8F0D6FAFB264F22;
+		};
+		249EBB314EDE48179220B240 = {
+			isa = PBXBuildFile;
+			fileRef = A2153714E0317D6AA60406BA;
+		};
+		249FC1613F39935B756A60AA = {
+			isa = PBXBuildFile;
+			fileRef = CD009C6D6E5CF39762AF058E;
+			settings = {
+				ATTRIBUTES = (
+					"RemoveHeadersOnCopy",
+				);
+			};
+		};
+		2A853FBE773E5698908E4329 = {
+			isa = PBXBuildFile;
+			fileRef = 0253168FA74BC7E78333DB38;
+		};
+		2B619F0ED4F76A1A14E2484B = {
+			isa = PBXBuildFile;
+			fileRef = D08FD452FE6AD1656F171D53;
+		};
+		2FD9CAD7426999F0412A5825 = {
+			isa = PBXBuildFile;
+			fileRef = 5067A1913EE266C7EEEF3C8D;
+		};
+		3172F1817550A612272C0BDD = {
+			isa = PBXBuildFile;
+			fileRef = A2D2F2FA919AC7CD4DE0D4A7;
+		};
+		338DE088CFFDD3468F3FFC28 = {
+			isa = PBXBuildFile;
+			fileRef = 42C2B19DAFF3D990B316B70F;
+		};
+		34C203BFAD92D35A3CB8CDC5 = {
+			isa = PBXBuildFile;
+			fileRef = 115768EAF44330FAC2377490;
+		};
+		36A9877DA49EDB46B7AA3833 = {
+			isa = PBXBuildFile;
+			fileRef = 167E6A64607A756162C0DDA6;
+		};
+		3707D3DCA64093353278E9B7 = {
+			isa = PBXBuildFile;
+			fileRef = 2FCF234F27B4325E6BA423C3;
+		};
+		37A249126CB526333D30C966 = {
+			isa = PBXBuildFile;
+			fileRef = CE6D6174C74AE7673BBFBAF5;
+		};
+		3ABF327D2E3579910F4790D1 = {
+			isa = PBXBuildFile;
+			fileRef = 324B7BB44FB9C021911C581E;
+		};
+		3B2B9D34441DE16A7086B31A = {
+			isa = PBXBuildFile;
+			fileRef = 9EDDAAE01E1BCC420D35B3E7;
+		};
+		3B7C3B8B112A85C740D91B72 = {
+			isa = PBXBuildFile;
+			fileRef = C51B4B18C1237257432326FC;
+		};
+		432F8A2208BAD4DE3D4EF5EB = {
+			isa = PBXBuildFile;
+			fileRef = 82962012265926EDEE69C3C5;
+		};
+		43F90AAFDA802C5B81C60CA2 = {
+			isa = PBXBuildFile;
+			fileRef = 9CA824EF630F609D07400F62;
+		};
+		4417C9C5DAFA602504F84E25 = {
+			isa = PBXBuildFile;
+			fileRef = B5D297B612D45C2366177698;
+		};
+		4C30CF512638A20ED6AA3111 = {
+			isa = PBXBuildFile;
+			fileRef = 96E608C8594B5E6BCA765A56;
+		};
+		4CDDAC1D21F6FB67594836E6 = {
+			isa = PBXBuildFile;
+			fileRef = 6CFA13CCAB7E108CF88D0EF9;
+		};
+		4D9563164039D46EE27E706D = {
+			isa = PBXBuildFile;
+			fileRef = 24BCCD68E05D0C1AA198E2C3;
+		};
+		4F7E9FCE1BCBCA2528896336 = {
+			isa = PBXBuildFile;
+			fileRef = B40DADBC12ABD14FC766B8B8;
+		};
+		53BFEB8151127FC76DC17A83 = {
+			isa = PBXBuildFile;
+			fileRef = 54C6628FCAE81C02505FACBD;
+		};
+		565DEE3E5D29B5228FBA0347 = {
+			isa = PBXBuildFile;
+			fileRef = 727932DC87A4F373B39055E2;
+		};
+		5739066DAE8575A33A75C9B7 = {
+			isa = PBXBuildFile;
+			fileRef = A5455DB46BC1A03AB55DEB39;
+		};
+		5C2098DBAF86193C7895210D = {
+			isa = PBXBuildFile;
+			fileRef = 945197214B7A2EF0DA685361;
+		};
+		6292D6FF24A2FD41EE1069F6 = {
+			isa = PBXBuildFile;
+			fileRef = 9D677678F4DA6C97B2C57A42;
+		};
+		6497D355C1D7FC471BA38604 = {
+			isa = PBXBuildFile;
+			fileRef = 4D89E14F67EF528648C32939;
+		};
+		65BA6538F1E6492F4405C711 = {
+			isa = PBXBuildFile;
+			fileRef = 59323CAE301AE37B6A7D4AB2;
+		};
+		66CE6C498028E679866CDAD3 = {
+			isa = PBXBuildFile;
+			fileRef = C2582BE13E2D0302654F0AE8;
+		};
+		69281F36BC13321023F11342 = {
+			isa = PBXBuildFile;
+			fileRef = 2FCF234F27B4325E6BA423C3;
+		};
+		6B4B86410B31C32779060DC2 = {
+			isa = PBXBuildFile;
+			fileRef = 666AE3F2BD8A9A1E38B2293D;
+		};
+		6D7D60DBD70EFCB1711CFC6B = {
+			isa = PBXBuildFile;
+			fileRef = 42D2858345174CADDC88E4D5;
+		};
+		718756F6932F14274D141B02 = {
+			isa = PBXBuildFile;
+			fileRef = 80F95930B419A743C001A2A6;
+		};
+		7276ABA2C3212A4161719526 = {
+			isa = PBXBuildFile;
+			fileRef = 8D7EE48D8FE74FF68285EDBD;
+		};
+		75819A19D37DD84990782E25 = {
+			isa = PBXBuildFile;
+			fileRef = FC8BB09169498E7E7CC74731;
+		};
+		7664B37C6E7F2F1940B60F71 = {
+			isa = PBXBuildFile;
+			fileRef = DF172DCDE91AF584B38A4739;
+		};
+		770B2AC67DC60B5D334A90F0 = {
+			isa = PBXBuildFile;
+			fileRef = D5D104DC633E41F1E4514B55;
+		};
+		7A702A4A97D931E0AF5B4C90 = {
+			isa = PBXBuildFile;
+			fileRef = 30BF779AFD1FD826309BC587;
+		};
+		7E343C0E692E79CDB37455F6 = {
+			isa = PBXBuildFile;
+			fileRef = 5CE18F7DEC9EC10C3D84CDB7;
+		};
+		7E35C6D332853E230094B904 = {
+			isa = PBXBuildFile;
+			fileRef = 08CB3E22E76D9805797C7123;
+		};
+		841ABE5DB521A0CC090D5D4E = {
+			isa = PBXBuildFile;
+			fileRef = E5FC9708DFCA4F026F094ACC;
+		};
+		8833E18E68897C4E4F55A14C = {
+			isa = PBXBuildFile;
+			fileRef = C0DB911A4FC37533A890090D;
+		};
+		8937BD6A6076DE45FF26D992 = {
+			isa = PBXBuildFile;
+			fileRef = 3ABC5B6BE0923AD8C5360D91;
+		};
+		8C1AD752A3422B061B7B679E = {
+			isa = PBXBuildFile;
+			fileRef = 32E0C0D732683EDD2A4CC4BA;
+		};
+		92D59B3F3EBA97DC2C2498FF = {
+			isa = PBXBuildFile;
+			fileRef = 2EBA9BA53EBCD498E76EA06D;
+		};
+		95C446601564926E032396F8 = {
+			isa = PBXBuildFile;
+			fileRef = 33C0E0E913CF02F3225F1E3B;
+		};
+		96E1611BA177C6AA3E118DB2 = {
+			isa = PBXBuildFile;
+			fileRef = 324F8D50B6A226D5269AFC4C;
+		};
+		99898CCCEB47DD82C196A46B = {
+			isa = PBXBuildFile;
+			productRef = 1FD1E19AE2E70F1222C7C3D7;
+		};
+		9C9B58E193BDEEBFA89CB33F = {
+			isa = PBXBuildFile;
+			fileRef = 33B2FF9EE7554B758138D5F7;
+		};
+		9CD508FD5BDBD25688729D38 = {
+			isa = PBXBuildFile;
+			fileRef = 63EFA01DCD69530644C24658;
+		};
+		9E6400CEF7675C64F8002A51 = {
+			isa = PBXBuildFile;
+			fileRef = 41594882A1F12FD5C9F370F8;
+		};
+		9FFF79D8F11B770183471272 = {
+			isa = PBXBuildFile;
+			fileRef = B7F5567B48F9895C02B9C469;
+		};
+		A0F45DC7215EB10BA9769F1A = {
+			isa = PBXBuildFile;
+			fileRef = 0D3321277B9F82FC45382F6A;
+		};
+		A1603DB66E8D38A48901087C = {
+			isa = PBXBuildFile;
+			productRef = 1FD1E19AE2E70F1222C7C3D7;
+		};
+		AB136C2FC2D0D2AE10EEF055 = {
+			isa = PBXBuildFile;
+			fileRef = A0CB8208F8043B38C0B795DC;
+		};
+		ABC387E49D1E2867B8CF12E0 = {
+			isa = PBXBuildFile;
+			fileRef = 5B95C7B7A986ACB8BD9FA3B2;
+		};
+		AF589263C99326F82D3D3F4D = {
+			isa = PBXBuildFile;
+			fileRef = FD5DB0FCFF8FD5201CF50B2E;
+		};
+		B0E41E5AC23EFF2CE93F031E = {
+			isa = PBXBuildFile;
+			fileRef = 9929112BF3E4853E09F29A98;
+		};
+		B48187045213D63B51185DEB = {
+			isa = PBXBuildFile;
+			fileRef = 49DAC1C929D22C9AFDC30D8D;
+		};
+		B6E3776980C6A88815B12AD3 = {
+			isa = PBXBuildFile;
+			fileRef = 101B60A48E3658126542DBB3;
+		};
+		B9621CA20FE1D79FDBBBE55D = {
+			isa = PBXBuildFile;
+			fileRef = 63E831A57FCCCEE05B798A66;
+		};
+		B9A431D5E8C7408E8EBB8E04 = {
+			isa = PBXBuildFile;
+			fileRef = 2B3E296326CF9A0EF008D62E;
+		};
+		BDE9D9E49C9666FD255BBE52 = {
+			isa = PBXBuildFile;
+			fileRef = 80F95930B419A743C001A2A6;
+		};
+		BEB7181AFFBEDA3500575069 = {
+			isa = PBXBuildFile;
+			fileRef = 359185669DD74675B475288E;
+		};
+		BF49E69AF75AD4ADC93D1131 = {
+			isa = PBXBuildFile;
+			productRef = 1FD1E19AE2E70F1222C7C3D7;
+		};
+		C0B6CDDAA2C8309154C705BE = {
+			isa = PBXBuildFile;
+			fileRef = 182F91D83A96FF227F1A54FF;
+		};
+		C9B144B476054E885030702D = {
+			isa = PBXBuildFile;
+			fileRef = 663EF8F28035375970CBABBC;
+		};
+		CCFF23913A59DB704695A2DB = {
+			isa = PBXBuildFile;
+			fileRef = 3683BBAD9DBE52D9F853DB72;
+		};
+		D777C8CBE1B08879E1F10263 = {
+			isa = PBXBuildFile;
+			fileRef = B9286DD6477760D2A8593D59;
+		};
+		D95C933EE3A30869AA0CD788 = {
+			isa = PBXBuildFile;
+			fileRef = 8BB955537269350953BD047D;
+		};
+		DAD7384E1C9EEEC8EFD39A93 = {
+			isa = PBXBuildFile;
+			fileRef = F34C04255290B00EAC28D98E;
+		};
+		DCC288D718AD2ECB342766AC = {
+			isa = PBXBuildFile;
+			fileRef = 8BB79B1208AD286EF5BCCEA1;
+		};
+		DD96B51A3DC35DB86ED687B3 = {
+			isa = PBXBuildFile;
+			fileRef = D908346FF16B644B020E5B6F;
+		};
+		DFDACF38639546823E63A17C = {
+			isa = PBXBuildFile;
+			fileRef = DDD9F458DE1BFF7F8D2CC805;
+		};
+		E20E59019C0C4AF6FD382F36 = {
+			isa = PBXBuildFile;
+			fileRef = 2E5F0DCDEB88836FEDFCDBE2;
+		};
+		EA184A137591EE9A03F24344 = {
+			isa = PBXBuildFile;
+			fileRef = D746E125D6C66ADC493B9ACF;
+		};
+		EE34FD33F2E80D39F67A6E73 = {
+			isa = PBXBuildFile;
+			fileRef = 70C9DF45CEBDCCEFD9A2FD4C;
+		};
+		F00F6E3B1F9522607FE52A24 = {
+			isa = PBXBuildFile;
+			fileRef = 320B18C1CE6F27F4FE1500BD;
+		};
+		F5284DC5348E8DA5B71B4137 = {
+			isa = PBXBuildFile;
+			fileRef = A438771992BF1500923AE52D;
+		};
+		F83EA01E367F90144440ED17 = {
+			isa = PBXBuildFile;
+			fileRef = BB820A29E53F33C04F739B0F;
+		};
+		FF2C6671FF5FC1DB879F0619 = {
+			isa = PBXBuildFile;
+			fileRef = 49C1615BD5C231A277AAD3EA;
+		};
+		8B8DC115F0F7894E1482DB6E = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111ABEF65DFC46AADDEA21F3;
+			proxyType = 1;
+			remoteGlobalIDString = 553A203D93463769DE801A3C;
+			remoteInfo = "Dropack";
+		};
+		DED25B5B4434110D936AF33E = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111ABEF65DFC46AADDEA21F3;
+			proxyType = 1;
+			remoteGlobalIDString = 553A203D93463769DE801A3C;
+			remoteInfo = "Dropack";
+		};
+		FACE789CD3491A6EFA241FD3 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111ABEF65DFC46AADDEA21F3;
+			proxyType = 1;
+			remoteGlobalIDString = DBA2D62313BA1C673F7CC449;
+			remoteInfo = "DropackLiveActivity";
+		};
+		A0EC9251C429FA56FCF82512 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				249FC1613F39935B756A60AA,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0253168FA74BC7E78333DB38 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "HelpView.swift";
+			sourceTree = "<group>";
+		};
+		02FED48B404F6F6EBECAF00A = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PickerResourceExporter.swift";
+			sourceTree = "<group>";
+		};
+		0519556B29BF7B020F3BFF23 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "nl";
+			path = "PhotoRelay/Resources/nl.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		075B53E95B981602561976B1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.xml";
+			path = "DropackLiveActivity/Info.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		08CB3E22E76D9805797C7123 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AlbumDetailPolicy.swift";
+			sourceTree = "<group>";
+		};
+		0D3321277B9F82FC45382F6A = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AppPreferences.swift";
+			sourceTree = "<group>";
+		};
+		0EB83AA5793FA3EEC29DB1C6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ImportActivity.swift";
+			sourceTree = "<group>";
+		};
+		0FB8DFB80F9D7DD6B38F82A8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ImportController.swift";
+			sourceTree = "<group>";
+		};
+		101B60A48E3658126542DBB3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "SettingsView.swift";
+			sourceTree = "<group>";
+		};
+		10AFADB2DAB1018B27BF2A32 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.cfbundle";
+			includeInIndex = 0;
+			path = "DropackUITests.xctest";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		115768EAF44330FAC2377490 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PhotoRelayApp.swift";
+			sourceTree = "<group>";
+		};
+		167E6A64607A756162C0DDA6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "SourcePicker.swift";
+			sourceTree = "<group>";
+		};
+		182F91D83A96FF227F1A54FF = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AlbumMediaPreviewService.swift";
+			sourceTree = "<group>";
+		};
+		1834DDBFBF869366367EEBA5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "zh-Hans";
+			path = "PhotoRelay/Resources/zh-Hans.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1E0317E8B21A8A4C744DD911 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "ja";
+			path = "PhotoRelay/Resources/ja.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		234BDE9F022F174BE512B8C8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/PackageBackgroundLifecycleTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2491D48B8F4A5046BE02D9A6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "tr";
+			path = "PhotoRelay/Resources/tr.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		24BCCD68E05D0C1AA198E2C3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "MediaThumbnailLoader.swift";
+			sourceTree = "<group>";
+		};
+		2B3E296326CF9A0EF008D62E = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/MediaThumbnailTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2E5F0DCDEB88836FEDFCDBE2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/PackageCancellationIntegrationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2EBA9BA53EBCD498E76EA06D = {
+			isa = PBXFileReference;
+			lastKnownFileType = "folder.assetcatalog";
+			path = "Assets.xcassets";
+			sourceTree = "<group>";
+		};
+		2FCF234F27B4325E6BA423C3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Shared/TransferActivityAttributes.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		30BF779AFD1FD826309BC587 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "NativePackageProgress.swift";
+			sourceTree = "<group>";
+		};
+		320B18C1CE6F27F4FE1500BD = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.json";
+			path = "Translations.json";
+			sourceTree = "<group>";
+		};
+		324B7BB44FB9C021911C581E = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageBackgroundExecution.swift";
+			sourceTree = "<group>";
+		};
+		324F8D50B6A226D5269AFC4C = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageController.swift";
+			sourceTree = "<group>";
+		};
+		32E0C0D732683EDD2A4CC4BA = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ArchiveShareSheet.swift";
+			sourceTree = "<group>";
+		};
+		33B2FF9EE7554B758138D5F7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageZIPReuse.swift";
+			sourceTree = "<group>";
+		};
+		33C0E0E913CF02F3225F1E3B = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "DropackBrandLogo.swift";
+			sourceTree = "<group>";
+		};
+		359185669DD74675B475288E = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageLibraryViews.swift";
+			sourceTree = "<group>";
+		};
+		3683BBAD9DBE52D9F853DB72 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/AlbumEditingIntegrationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3ABC5B6BE0923AD8C5360D91 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/ExternalSourceTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4088D8CD2B618DAEC78D8C6A = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PhotoPackageService.swift";
+			sourceTree = "<group>";
+		};
+		41594882A1F12FD5C9F370F8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ResumableFileCopy.swift";
+			sourceTree = "<group>";
+		};
+		42C2B19DAFF3D990B316B70F = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AlbumMediaPreview.swift";
+			sourceTree = "<group>";
+		};
+		42D2858345174CADDC88E4D5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "CheckpointStore.swift";
+			sourceTree = "<group>";
+		};
+		49C1615BD5C231A277AAD3EA = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "TransferActivityStagePolicy.swift";
+			sourceTree = "<group>";
+		};
+		49DAC1C929D22C9AFDC30D8D = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppUITests/DropackUITests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4FAE53A46BAD6B8850FDF9EC = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "ar";
+			path = "PhotoRelay/Resources/ar.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5067A1913EE266C7EEEF3C8D = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageAssetProgress.swift";
+			sourceTree = "<group>";
+		};
+		51ECE2886349837DD0D61F1E = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AppUpdateChecker.swift";
+			sourceTree = "<group>";
+		};
+		54C6628FCAE81C02505FACBD = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/ReceivedAlbumIntegrationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		57A98BDDD8F0D6FAFB264F22 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PhotoPicker.swift";
+			sourceTree = "<group>";
+		};
+		59323CAE301AE37B6A7D4AB2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AlbumPreviewFileCoordinator.swift";
+			sourceTree = "<group>";
+		};
+		5B95C7B7A986ACB8BD9FA3B2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageImportResolver.swift";
+			sourceTree = "<group>";
+		};
+		5CE18F7DEC9EC10C3D84CDB7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/PackageAssetProgressTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5FD7B48C431F673A14E4B46F = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "pl";
+			path = "PhotoRelay/Resources/pl.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		63E831A57FCCCEE05B798A66 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "MediaSourceService.swift";
+			sourceTree = "<group>";
+		};
+		63EFA01DCD69530644C24658 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/ImportDeduplicationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		663EF8F28035375970CBABBC = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageFileAccess.swift";
+			sourceTree = "<group>";
+		};
+		666AE3F2BD8A9A1E38B2293D = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ImportContentIdentity.swift";
+			sourceTree = "<group>";
+		};
+		6BEEAE56699A8964ECBB0698 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageLibraryStore.swift";
+			sourceTree = "<group>";
+		};
+		6CFA13CCAB7E108CF88D0EF9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "SystemAlbumService.swift";
+			sourceTree = "<group>";
+		};
+		70C9DF45CEBDCCEFD9A2FD4C = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/AppSettingsTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		727932DC87A4F373B39055E2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AppUpdatePolicy.swift";
+			sourceTree = "<group>";
+		};
+		7695CB12FD9E6A4211C600C8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "ko";
+			path = "PhotoRelay/Resources/ko.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		774D6CB34D78744E0DDB5BB2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PhotoPickerSelection.swift";
+			sourceTree = "<group>";
+		};
+		787AAF9D91801C46E7B1E5BC = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "zh-Hant";
+			path = "PhotoRelay/Resources/zh-Hant.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7BB883182BEA546B9943444A = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "de";
+			path = "PhotoRelay/Resources/de.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		80F95930B419A743C001A2A6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "L10n.swift";
+			sourceTree = "<group>";
+		};
+		82962012265926EDEE69C3C5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AlbumNavigation.swift";
+			sourceTree = "<group>";
+		};
+		8B9FD3312AF2E6A0D27BFCC9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "es";
+			path = "PhotoRelay/Resources/es.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8BB79B1208AD286EF5BCCEA1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ShareAlbumViews.swift";
+			sourceTree = "<group>";
+		};
+		8BB955537269350953BD047D = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PhotoLibraryWriter.swift";
+			sourceTree = "<group>";
+		};
+		8D7EE48D8FE74FF68285EDBD = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ImportModels.swift";
+			sourceTree = "<group>";
+		};
+		945197214B7A2EF0DA685361 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/OutgoingAlbumIntegrationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		96E608C8594B5E6BCA765A56 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "TransferActivityUpdateBuffer.swift";
+			sourceTree = "<group>";
+		};
+		9929112BF3E4853E09F29A98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ImportIssueViews.swift";
+			sourceTree = "<group>";
+		};
+		9CA824EF630F609D07400F62 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ReceivedThumbnailService.swift";
+			sourceTree = "<group>";
+		};
+		9D677678F4DA6C97B2C57A42 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "TransferActivityLifecyclePolicy.swift";
+			sourceTree = "<group>";
+		};
+		9EDDAAE01E1BCC420D35B3E7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/AlbumDeletionIsolationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A0CB8208F8043B38C0B795DC = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "TransferLiveActivityBridge.swift";
+			sourceTree = "<group>";
+		};
+		A2153714E0317D6AA60406BA = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageModels.swift";
+			sourceTree = "<group>";
+		};
+		A2D2F2FA919AC7CD4DE0D4A7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/PackageOriginalProgressIntegrationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A438771992BF1500923AE52D = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/PackageActivityTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A5455DB46BC1A03AB55DEB39 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageActivity.swift";
+			sourceTree = "<group>";
+		};
+		AC31BECB1A2AEED7731919BB = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "fr";
+			path = "PhotoRelay/Resources/fr.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B1216A613D462C7938BB971F = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "en";
+			path = "PhotoRelay/Resources/en.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B40DADBC12ABD14FC766B8B8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ContentView.swift";
+			sourceTree = "<group>";
+		};
+		B5D297B612D45C2366177698 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ZipDirectoryValidator.swift";
+			sourceTree = "<group>";
+		};
+		B7F5567B48F9895C02B9C469 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ImportThumbnailStage.swift";
+			sourceTree = "<group>";
+		};
+		B9286DD6477760D2A8593D59 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.xml";
+			path = "DropackLiveActivity/PrivacyInfo.xcprivacy";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BB7531A2A6F9FAC518201E48 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "it";
+			path = "PhotoRelay/Resources/it.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BB820A29E53F33C04F739B0F = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppUITests/SettingsUITests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BBB0E92A066671294D370568 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "MediaPolicy.swift";
+			sourceTree = "<group>";
+		};
+		C0DB911A4FC37533A890090D = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ImportHistoryStore.swift";
+			sourceTree = "<group>";
+		};
+		C2582BE13E2D0302654F0AE8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ReadByteProgressThrottle.swift";
+			sourceTree = "<group>";
+		};
+		C51B4B18C1237257432326FC = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/AlbumMediaPreviewTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C7555B82F98205D27D9A5F5B = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.cfbundle";
+			includeInIndex = 0;
+			path = "DropackIntegrationTests.xctest";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		CB8DF397EF73C7A4F9253BFB = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/PrivatePickerIntegrationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CD009C6D6E5CF39762AF058E = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.app-extension";
+			includeInIndex = 0;
+			path = "DropackLiveActivity.appex";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		CE6D6174C74AE7673BBFBAF5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ShareAlbum.swift";
+			sourceTree = "<group>";
+		};
+		D08FD452FE6AD1656F171D53 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "CancellableCallbackOperation.swift";
+			sourceTree = "<group>";
+		};
+		D5D104DC633E41F1E4514B55 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/PackageLibraryIntegrationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D746E125D6C66ADC493B9ACF = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "SendSourceSheet.swift";
+			sourceTree = "<group>";
+		};
+		D908346FF16B644B020E5B6F = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "MediaCaptureDate.swift";
+			sourceTree = "<group>";
+		};
+		DAB65707D5FEDD0CFAA67B95 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.xml";
+			path = "Info.plist";
+			sourceTree = "<group>";
+		};
+		DDD9F458DE1BFF7F8D2CC805 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "TransferLiveActivityCoordinator.swift";
+			sourceTree = "<group>";
+		};
+		DF172DCDE91AF584B38A4739 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/DropackIntegrationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E5FC9708DFCA4F026F094ACC = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.xml";
+			path = "PrivacyInfo.xcprivacy";
+			sourceTree = "<group>";
+		};
+		E82925875977FDE9B32FFD45 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "hi";
+			path = "PhotoRelay/Resources/hi.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EC3F80FD7D41E1F909A96B27 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			includeInIndex = 0;
+			path = "Dropack.app";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		F11C86F1B9CE321B31876288 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "id";
+			path = "PhotoRelay/Resources/id.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F191ECCE1BDB52BA4844DD8E = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ReceivedAlbumStore.swift";
+			sourceTree = "<group>";
+		};
+		F1EB5EEB58B22636052FDF30 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			name = "pt-BR";
+			path = "PhotoRelay/Resources/pt-BR.lproj/InfoPlist.strings";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F34C04255290B00EAC28D98E = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "DropackLiveActivity/DropackLiveActivity.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F3C6BB7A48B61D0854B475F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/AppIntegrationTests/PackageProgressPresentationTests.swift";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FC8BB09169498E7E7CC74731 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ActivityTaskDestination.swift";
+			sourceTree = "<group>";
+		};
+		FD5DB0FCFF8FD5201CF50B2E = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PackageTaskBanner.swift";
+			sourceTree = "<group>";
+		};
+		3E1333A55ED614591142C117 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99898CCCEB47DD82C196A46B,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD13CB7F8916F23913C7C38 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1603DB66E8D38A48901087C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9760A8EFE12F266820C897AC = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980296460BBC27CF9D18555F = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		006CCC9C5537EA6CE7E41D58 = {
+			isa = PBXGroup;
+			children = (
+				1A03727C7D0D03E1177929BF,
+				A1A39BA8C88B089B23358E61,
+				616A2DC2380E761CE52B0056,
+				2EBA9BA53EBCD498E76EA06D,
+				DAB65707D5FEDD0CFAA67B95,
+				115768EAF44330FAC2377490,
+				E5FC9708DFCA4F026F094ACC,
+				4D89E14F67EF528648C32939,
+			);
+			path = "PhotoRelay";
+			sourceTree = "<group>";
+		};
+		1A03727C7D0D03E1177929BF = {
+			isa = PBXGroup;
+			children = (
+				C3CB7783E505C716F3FEDB27,
+				FC8BB09169498E7E7CC74731,
+				08CB3E22E76D9805797C7123,
+				82962012265926EDEE69C3C5,
+				727932DC87A4F373B39055E2,
+				D08FD452FE6AD1656F171D53,
+				42D2858345174CADDC88E4D5,
+				666AE3F2BD8A9A1E38B2293D,
+				C0DB911A4FC37533A890090D,
+				8D7EE48D8FE74FF68285EDBD,
+				80F95930B419A743C001A2A6,
+				BBB0E92A066671294D370568,
+				5B95C7B7A986ACB8BD9FA3B2,
+				6BEEAE56699A8964ECBB0698,
+				A2153714E0317D6AA60406BA,
+				33B2FF9EE7554B758138D5F7,
+				C2582BE13E2D0302654F0AE8,
+				F191ECCE1BDB52BA4844DD8E,
+				41594882A1F12FD5C9F370F8,
+				CE6D6174C74AE7673BBFBAF5,
+				9D677678F4DA6C97B2C57A42,
+				49C1615BD5C231A277AAD3EA,
+				96E608C8594B5E6BCA765A56,
+				B5D297B612D45C2366177698,
+			);
+			path = "Core";
+			sourceTree = "<group>";
+		};
+		616A2DC2380E761CE52B0056 = {
+			isa = PBXGroup;
+			children = (
+				42C2B19DAFF3D990B316B70F,
+				32E0C0D732683EDD2A4CC4BA,
+				B40DADBC12ABD14FC766B8B8,
+				33C0E0E913CF02F3225F1E3B,
+				0253168FA74BC7E78333DB38,
+				9929112BF3E4853E09F29A98,
+				B7F5567B48F9895C02B9C469,
+				30BF779AFD1FD826309BC587,
+				5067A1913EE266C7EEEF3C8D,
+				359185669DD74675B475288E,
+				FD5DB0FCFF8FD5201CF50B2E,
+				57A98BDDD8F0D6FAFB264F22,
+				D746E125D6C66ADC493B9ACF,
+				101B60A48E3658126542DBB3,
+				8BB79B1208AD286EF5BCCEA1,
+				167E6A64607A756162C0DDA6,
+			);
+			path = "UI";
+			sourceTree = "<group>";
+		};
+		68EA0F00EC489715E8D0B815 = {
+			isa = PBXGroup;
+			children = (
+				EC3F80FD7D41E1F909A96B27,
+				CD009C6D6E5CF39762AF058E,
+				C7555B82F98205D27D9A5F5B,
+				10AFADB2DAB1018B27BF2A32,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		8D1E695AB52A6F2C05045E94 = {
+			isa = PBXGroup;
+			name = "Shared";
+			children = (
+				2FCF234F27B4325E6BA423C3,
+			);
+			sourceTree = "<group>";
+		};
+		A1A39BA8C88B089B23358E61 = {
+			isa = PBXGroup;
+			children = (
+				182F91D83A96FF227F1A54FF,
+				59323CAE301AE37B6A7D4AB2,
+				0D3321277B9F82FC45382F6A,
+				51ECE2886349837DD0D61F1E,
+				0EB83AA5793FA3EEC29DB1C6,
+				0FB8DFB80F9D7DD6B38F82A8,
+				D908346FF16B644B020E5B6F,
+				63E831A57FCCCEE05B798A66,
+				24BCCD68E05D0C1AA198E2C3,
+				A5455DB46BC1A03AB55DEB39,
+				324B7BB44FB9C021911C581E,
+				324F8D50B6A226D5269AFC4C,
+				663EF8F28035375970CBABBC,
+				8BB955537269350953BD047D,
+				4088D8CD2B618DAEC78D8C6A,
+				774D6CB34D78744E0DDB5BB2,
+				02FED48B404F6F6EBECAF00A,
+				9CA824EF630F609D07400F62,
+				6CFA13CCAB7E108CF88D0EF9,
+				A0CB8208F8043B38C0B795DC,
+				DDD9F458DE1BFF7F8D2CC805,
+			);
+			path = "Services";
+			sourceTree = "<group>";
+		};
+		BD327DC9F47C3BCDB70308B2 = {
+			isa = PBXGroup;
+			name = "DropackUITests";
+			children = (
+				49DAC1C929D22C9AFDC30D8D,
+				BB820A29E53F33C04F739B0F,
+			);
+			sourceTree = "<group>";
+		};
+		C3CB7783E505C716F3FEDB27 = {
+			isa = PBXGroup;
+			children = (
+				320B18C1CE6F27F4FE1500BD,
+			);
+			path = "Resources";
+			sourceTree = "<group>";
+		};
+		C7CA962C192FBF9EA6D016AB = {
+			isa = PBXGroup;
+			name = "DropackIntegrationTests";
+			children = (
+				9EDDAAE01E1BCC420D35B3E7,
+				3683BBAD9DBE52D9F853DB72,
+				C51B4B18C1237257432326FC,
+				70C9DF45CEBDCCEFD9A2FD4C,
+				DF172DCDE91AF584B38A4739,
+				3ABC5B6BE0923AD8C5360D91,
+				63EFA01DCD69530644C24658,
+				2B3E296326CF9A0EF008D62E,
+				945197214B7A2EF0DA685361,
+				A438771992BF1500923AE52D,
+				5CE18F7DEC9EC10C3D84CDB7,
+				234BDE9F022F174BE512B8C8,
+				2E5F0DCDEB88836FEDFCDBE2,
+				D5D104DC633E41F1E4514B55,
+				A2D2F2FA919AC7CD4DE0D4A7,
+				F3C6BB7A48B61D0854B475F2,
+				CB8DF397EF73C7A4F9253BFB,
+				54C6628FCAE81C02505FACBD,
+			);
+			sourceTree = "<group>";
+		};
+		D0429B392058BB3900E69333 = {
+			isa = PBXGroup;
+			name = "DropackLiveActivity";
+			children = (
+				F34C04255290B00EAC28D98E,
+				075B53E95B981602561976B1,
+				B9286DD6477760D2A8593D59,
+			);
+			sourceTree = "<group>";
+		};
+		D0F7B64A8E3157AA436F17B6 = {
+			isa = PBXGroup;
+			children = (
+				006CCC9C5537EA6CE7E41D58,
+				68EA0F00EC489715E8D0B815,
+				8D1E695AB52A6F2C05045E94,
+				D0429B392058BB3900E69333,
+				C7CA962C192FBF9EA6D016AB,
+				BD327DC9F47C3BCDB70308B2,
+			);
+			sourceTree = "<group>";
+		};
+		018C954BEE09DAE8C0D85472 = {
+			isa = PBXNativeTarget;
+			name = "DropackUITests";
+			productName = "DropackUITests";
+			productReference = 10AFADB2DAB1018B27BF2A32;
+			productType = "com.apple.product-type.bundle.ui-testing";
+			buildConfigurationList = 24753E5D554B1AF07023EB2C;
+			buildPhases = (
+				A69A33C1E8B3022D97E1DE0E,
+				9760A8EFE12F266820C897AC,
+			);
+			buildRules = ();
+			dependencies = (
+				0DF6A95DFF7E6AA49CEE798F,
+			);
+			packageProductDependencies = ();
+		};
+		14955ED3405058D4B265AC55 = {
+			isa = PBXNativeTarget;
+			name = "DropackIntegrationTests";
+			productName = "DropackIntegrationTests";
+			productReference = C7555B82F98205D27D9A5F5B;
+			productType = "com.apple.product-type.bundle.unit-test";
+			buildConfigurationList = 018C777B54F3B3F1346C8CDA;
+			buildPhases = (
+				EBE9DBA2ECEBF9D1CD73F6F2,
+				4BD13CB7F8916F23913C7C38,
+			);
+			buildRules = ();
+			dependencies = (
+				4019529ABE99D6C0A26E4D95,
+			);
+			packageProductDependencies = (
+				1FD1E19AE2E70F1222C7C3D7,
+			);
+		};
+		553A203D93463769DE801A3C = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410D94AF675BBF66312096AB;
+			buildPhases = (
+				11BE047F9E0849937A1B7B68,
+				3E1333A55ED614591142C117,
+				D945C89F28D858753A09BC46,
+				A0EC9251C429FA56FCF82512,
+			);
+			buildRules = ();
+			dependencies = (
+				45FA7AB3B88950E59058ABCA,
+			);
+			name = "Dropack";
+			packageProductDependencies = (
+				1FD1E19AE2E70F1222C7C3D7,
+			);
+			productName = "Dropack";
+			productReference = EC3F80FD7D41E1F909A96B27;
+			productType = "com.apple.product-type.application";
+		};
+		DBA2D62313BA1C673F7CC449 = {
+			isa = PBXNativeTarget;
+			name = "DropackLiveActivity";
+			productName = "DropackLiveActivity";
+			productReference = CD009C6D6E5CF39762AF058E;
+			productType = "com.apple.product-type.app-extension";
+			buildConfigurationList = 1B9C3636311658B2331C331C;
+			buildPhases = (
+				DA015E42A29F1D5D57E0EA0D,
+				980296460BBC27CF9D18555F,
+				2A60D475AECD88B3936CFCA3,
+			);
+			buildRules = ();
+			dependencies = ();
+		};
+		111ABEF65DFC46AADDEA21F3 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = "YES";
+				LastSwiftUpdateCheck = "1600";
+				LastUpgradeCheck = "1600";
+				TargetAttributes = {
+					553A203D93463769DE801A3C = {
+						CreatedOnToolsVersion = "16.0";
+					};
+				};
+			};
+			buildConfigurationList = 6A49B3F19CB59A1E056E0372;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "en";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"Base",
+				"en",
+				"zh-Hans",
+				"zh-Hant",
+				"ja",
+				"ko",
+				"es",
+				"fr",
+				"de",
+				"it",
+				"pt-BR",
+				"nl",
+				"pl",
+				"tr",
+				"ar",
+				"hi",
+				"id",
+			);
+			mainGroup = D0F7B64A8E3157AA436F17B6;
+			packageReferences = (
+				24A48E71337A1D09794E07D0,
+			);
+			productRefGroup = 68EA0F00EC489715E8D0B815;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				553A203D93463769DE801A3C,
+				DBA2D62313BA1C673F7CC449,
+				14955ED3405058D4B265AC55,
+				018C954BEE09DAE8C0D85472,
+			);
+		};
+		2A60D475AECD88B3936CFCA3 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00F6E3B1F9522607FE52A24,
+				D777C8CBE1B08879E1F10263,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D945C89F28D858753A09BC46 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D59B3F3EBA97DC2C2498FF,
+				1DC2E816088D30D026595AC7,
+				841ABE5DB521A0CC090D5D4E,
+				6497D355C1D7FC471BA38604,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11BE047F9E0849937A1B7B68 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75819A19D37DD84990782E25,
+				7E35C6D332853E230094B904,
+				432F8A2208BAD4DE3D4EF5EB,
+				565DEE3E5D29B5228FBA0347,
+				2B619F0ED4F76A1A14E2484B,
+				6D7D60DBD70EFCB1711CFC6B,
+				6B4B86410B31C32779060DC2,
+				8833E18E68897C4E4F55A14C,
+				7276ABA2C3212A4161719526,
+				BDE9D9E49C9666FD255BBE52,
+				04140E653081C95F45221E40,
+				ABC387E49D1E2867B8CF12E0,
+				0C7A73E72A11A95603CA6894,
+				249EBB314EDE48179220B240,
+				9C9B58E193BDEEBFA89CB33F,
+				66CE6C498028E679866CDAD3,
+				01D3E75A6ED3AC35346E7103,
+				9E6400CEF7675C64F8002A51,
+				37A249126CB526333D30C966,
+				6292D6FF24A2FD41EE1069F6,
+				FF2C6671FF5FC1DB879F0619,
+				4C30CF512638A20ED6AA3111,
+				4417C9C5DAFA602504F84E25,
+				34C203BFAD92D35A3CB8CDC5,
+				C0B6CDDAA2C8309154C705BE,
+				65BA6538F1E6492F4405C711,
+				A0F45DC7215EB10BA9769F1A,
+				0A4B1D831F62A8F696CB4E49,
+				01940735AEE8728F734191AD,
+				1885A6BFF5657F39C6F6150C,
+				DD96B51A3DC35DB86ED687B3,
+				B9621CA20FE1D79FDBBBE55D,
+				4D9563164039D46EE27E706D,
+				5739066DAE8575A33A75C9B7,
+				3ABF327D2E3579910F4790D1,
+				96E1611BA177C6AA3E118DB2,
+				C9B144B476054E885030702D,
+				D95C933EE3A30869AA0CD788,
+				0F90830607F5C2382D85A4B6,
+				0DDF8B72030EB7903670F9ED,
+				13BFA639108E6543E2EE70FA,
+				43F90AAFDA802C5B81C60CA2,
+				4CDDAC1D21F6FB67594836E6,
+				AB136C2FC2D0D2AE10EEF055,
+				DFDACF38639546823E63A17C,
+				338DE088CFFDD3468F3FFC28,
+				8C1AD752A3422B061B7B679E,
+				4F7E9FCE1BCBCA2528896336,
+				95C446601564926E032396F8,
+				2A853FBE773E5698908E4329,
+				B0E41E5AC23EFF2CE93F031E,
+				9FFF79D8F11B770183471272,
+				7A702A4A97D931E0AF5B4C90,
+				2FD9CAD7426999F0412A5825,
+				BEB7181AFFBEDA3500575069,
+				AF589263C99326F82D3D3F4D,
+				24645971669E72858674A2E2,
+				EA184A137591EE9A03F24344,
+				B6E3776980C6A88815B12AD3,
+				DCC288D718AD2ECB342766AC,
+				36A9877DA49EDB46B7AA3833,
+				69281F36BC13321023F11342,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69A33C1E8B3022D97E1DE0E = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48187045213D63B51185DEB,
+				F83EA01E367F90144440ED17,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA015E42A29F1D5D57E0EA0D = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3707D3DCA64093353278E9B7,
+				718756F6932F14274D141B02,
+				DAD7384E1C9EEEC8EFD39A93,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE9DBA2ECEBF9D1CD73F6F2 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B9D34441DE16A7086B31A,
+				CCFF23913A59DB704695A2DB,
+				3B7C3B8B112A85C740D91B72,
+				EE34FD33F2E80D39F67A6E73,
+				7664B37C6E7F2F1940B60F71,
+				8937BD6A6076DE45FF26D992,
+				9CD508FD5BDBD25688729D38,
+				B9A431D5E8C7408E8EBB8E04,
+				5C2098DBAF86193C7895210D,
+				F5284DC5348E8DA5B71B4137,
+				7E343C0E692E79CDB37455F6,
+				17F99F545F1A1892144385A3,
+				E20E59019C0C4AF6FD382F36,
+				770B2AC67DC60B5D334A90F0,
+				3172F1817550A612272C0BDD,
+				1D9214C1DC9D62E6FE07F0D3,
+				121B49188459B077924789AA,
+				53BFEB8151127FC76DC17A83,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF6A95DFF7E6AA49CEE798F = {
+			isa = PBXTargetDependency;
+			target = 553A203D93463769DE801A3C;
+			targetProxy = DED25B5B4434110D936AF33E;
+		};
+		4019529ABE99D6C0A26E4D95 = {
+			isa = PBXTargetDependency;
+			target = 553A203D93463769DE801A3C;
+			targetProxy = 8B8DC115F0F7894E1482DB6E;
+		};
+		45FA7AB3B88950E59058ABCA = {
+			isa = PBXTargetDependency;
+			target = DBA2D62313BA1C673F7CC449;
+			targetProxy = FACE789CD3491A6EFA241FD3;
+		};
+		4D89E14F67EF528648C32939 = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAE53A46BAD6B8850FDF9EC,
+				7BB883182BEA546B9943444A,
+				B1216A613D462C7938BB971F,
+				8B9FD3312AF2E6A0D27BFCC9,
+				AC31BECB1A2AEED7731919BB,
+				E82925875977FDE9B32FFD45,
+				F11C86F1B9CE321B31876288,
+				BB7531A2A6F9FAC518201E48,
+				1E0317E8B21A8A4C744DD911,
+				7695CB12FD9E6A4211C600C8,
+				0519556B29BF7B020F3BFF23,
+				5FD7B48C431F673A14E4B46F,
+				F1EB5EEB58B22636052FDF30,
+				2491D48B8F4A5046BE02D9A6,
+				1834DDBFBF869366367EEBA5,
+				787AAF9D91801C46E7B1E5BC,
+			);
+			name = "InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		238486E1C3C8D24673E77DFD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = "NO";
+				CLANG_ENABLE_MODULES = "YES";
+				CLANG_ENABLE_OBJC_ARC = "YES";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_TESTABILITY = "YES";
+				GCC_C_LANGUAGE_STANDARD = "gnu17";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				ONLY_ACTIVE_ARCH = "YES";
+				SDKROOT = "iphoneos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "5.0";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			};
+			name = "Debug";
+		};
+		3A3CE625F1D72B2149190BFE = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dropack.DropackIntegrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GENERATE_INFOPLIST_FILE = "YES";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_STYLE = "Automatic";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropack.app/Dropack";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+			};
+			name = "Release";
+		};
+		3B94A640416A00DC7CB5DB76 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "YES";
+				CODE_SIGN_STYLE = "Automatic";
+				CURRENT_PROJECT_VERSION = "14";
+				MARKETING_VERSION = "1.0";
+				GENERATE_INFOPLIST_FILE = "NO";
+				INFOPLIST_FILE = "DropackLiveActivity/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dropack.ios.liveactivity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = "YES";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = "NO";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+			};
+			name = "Release";
+		};
+		47156D7BB42EAB9B70CEEB8B = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dropack.DropackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GENERATE_INFOPLIST_FILE = "YES";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_STYLE = "Automatic";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				TEST_TARGET_NAME = "Dropack";
+			};
+			name = "Release";
+		};
+		695EABED5EF9C1B67B2F28F0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dropack.DropackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GENERATE_INFOPLIST_FILE = "YES";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_STYLE = "Automatic";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				TEST_TARGET_NAME = "Dropack";
+			};
+			name = "Debug";
+		};
+		7525389CEC5A409E751D8064 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "YES";
+				CODE_SIGN_STYLE = "Automatic";
+				CURRENT_PROJECT_VERSION = "14";
+				MARKETING_VERSION = "1.0";
+				GENERATE_INFOPLIST_FILE = "NO";
+				INFOPLIST_FILE = "DropackLiveActivity/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dropack.ios.liveactivity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = "YES";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = "NO";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+			};
+			name = "Debug";
+		};
+		81B7C7BE82A2042729B01431 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = "Automatic";
+				CURRENT_PROJECT_VERSION = "14";
+				ENABLE_PREVIEWS = "YES";
+				GENERATE_INFOPLIST_FILE = "NO";
+				INFOPLIST_FILE = "PhotoRelay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dropack.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = "NO";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor";
+			};
+			name = "Debug";
+		};
+		E8A3B18EB34344BD2DA67CF2 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dropack.DropackIntegrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GENERATE_INFOPLIST_FILE = "YES";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_STYLE = "Automatic";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropack.app/Dropack";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+			};
+			name = "Debug";
+		};
+		ECA6C3C73FA774269DEFDEA4 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = "NO";
+				CLANG_ENABLE_MODULES = "YES";
+				CLANG_ENABLE_OBJC_ARC = "YES";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = "NO";
+				GCC_C_LANGUAGE_STANDARD = "gnu17";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				ONLY_ACTIVE_ARCH = "NO";
+				SDKROOT = "iphoneos";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = "5.0";
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				VALIDATE_PRODUCT = "YES";
+			};
+			name = "Release";
+		};
+		F0560CC293C311F38980FF62 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = "Automatic";
+				CURRENT_PROJECT_VERSION = "14";
+				ENABLE_PREVIEWS = "YES";
+				GENERATE_INFOPLIST_FILE = "NO";
+				INFOPLIST_FILE = "PhotoRelay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dropack.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = "NO";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = "NO";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor";
+			};
+			name = "Release";
+		};
+		018C777B54F3B3F1346C8CDA = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A3B18EB34344BD2DA67CF2,
+				3A3CE625F1D72B2149190BFE,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1B9C3636311658B2331C331C = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7525389CEC5A409E751D8064,
+				3B94A640416A00DC7CB5DB76,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		24753E5D554B1AF07023EB2C = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695EABED5EF9C1B67B2F28F0,
+				47156D7BB42EAB9B70CEEB8B,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		410D94AF675BBF66312096AB = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B7C7BE82A2042729B01431,
+				F0560CC293C311F38980FF62,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6A49B3F19CB59A1E056E0372 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238486E1C3C8D24673E77DFD,
+				ECA6C3C73FA774269DEFDEA4,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		24A48E71337A1D09794E07D0 = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = exactVersion;
+				version = "0.9.20";
+			};
+		};
+		1FD1E19AE2E70F1222C7C3D7 = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24A48E71337A1D09794E07D0;
+			productName = "ZIPFoundation";
+		};
+	};
+	rootObject = 111ABEF65DFC46AADDEA21F3;
+}

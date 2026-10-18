@@ -1,0 +1,1325 @@
+{
+  "%@ / %@ 项": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "%@ / %@ 项已存": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "%@ 个相册": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "%@ 个视频": [
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "%@ 张照片": [
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "%@ 张照片 · %@ 个视频": [
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "%@ 段视频": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "%@ 项 · %@": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "%@ 项已%@": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "%@ 项待核对": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "%@ 项未保存": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "%@ 项素材": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "%@\\n\\n如果它已在相册中，请标记为已保存。无法确认时可以重新导入，但可能产生重复项。": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "%@，当前文件 %@%，已保存 %@ 项，共 %@ 项": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "0.5 秒": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "1 秒": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "AirDrop 收到照片包后，iOS 可能先打开“文件”预览。选择“在 Dropack 中打开”（或从分享菜单选择 Dropack），App 才会进入接收页并扫描，随后由你确认保存到相册。已确认存过的相同内容会跳过。已有任务时会先保留进度；普通 ZIP 也可以从“文件”中选取。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "AirDrop 由系统管理": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "Dropack 显示打包和相册导入进度。AirDrop 的发现设备、传输速度和传输结果由系统管理；Dropack 无法控制 AirDrop 的断点续传。分享完成也不代表接收端已存入相册。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "ZIP 中有未列入清单的媒体，不能把它当成完整照片包。": [
+    "PhotoRelay/Core/PackageImportResolver.swift"
+  ],
+  "ZIP 文件名或扩展记录不完整。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "ZIP 目录范围不正确。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "ZIP 目录记录不完整。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "ZIP 目录记录不正确。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "ZIP 记录被截断。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "ZIP64 目录位置不正确。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "ZIP64 目录记录不完整。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "ZIP64 磁盘信息不完整。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "iCloud、U 盘或本机文件": [
+    "PhotoRelay/UI/SendSourceSheet.swift"
+  ],
+  "“%@”使用了不支持的 ZIP 压缩方式，支持存储和 Deflate。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "“%@”的原文件为空，打包已停止，请检查原片后重试。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "“%@”解压后的大小或校验值不正确，文件可能已损坏。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "一次最多选择 124,999 项照片或视频。请分成几个照片包发送。": [
+    "PhotoRelay/Core/PackageModels.swift"
+  ],
+  "上次保存时应用中断。请先在相册核对“不确定”文件，避免重复导入。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "上次保存时应用中断，请先在相册核对此文件。": [
+    "PhotoRelay/Core/ImportModels.swift"
+  ],
+  "上次保存结果不确定。请先在相册核对，不能自动重复保存。": [
+    "PhotoRelay/Core/ImportHistoryStore.swift"
+  ],
+  "上次已存好": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "上次的打包任务已恢复，点击继续。未完成的一项会重新读取。": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "主题": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "从 U 盘读取相机素材": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "从 iCloud 下载": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "从哪里选择": [
+    "PhotoRelay/UI/SendSourceSheet.swift"
+  ],
+  "任务详情": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "使用说明": [
+    "PhotoRelay/UI/SettingsView.swift",
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "保存": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "保存到相册": [
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "保存失败，请重试。": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "保存来源记录": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "保存记录需要核对。": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "保存设置": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "保存间隔": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "保留当前任务": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "允许完整访问以关联相册": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "关于": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "关联相册：Dropack · %@": [
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "准备中": [
+    "Shared/TransferActivityAttributes.swift"
+  ],
+  "准备保存": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "准备分享相册": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "准备打包": [
+    "PhotoRelay/Core/PackageModels.swift",
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "分享已取消。照片包已保留，随时可以重新发送。": [
+    "PhotoRelay/UI/ArchiveShareSheet.swift"
+  ],
+  "分享未完成：%@ 照片包已保留，可以重试。": [
+    "PhotoRelay/UI/ArchiveShareSheet.swift"
+  ],
+  "分享相册": [
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/Core/ShareAlbum.swift",
+    "PhotoRelay/Core/ShareAlbum.swift"
+  ],
+  "分享相册已移除": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "分享相册的信息不完整或不受支持。": [
+    "PhotoRelay/Core/ShareAlbum.swift"
+  ],
+  "分享相册记录无法读取：%@": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "删除分享相册": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "删除照片包": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "删除这个照片包？": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "剩余空间不足。当前文件的临时副本、相册副本和安全余量约需 %@，当前可用 %@。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "发现新版本 %@": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "发送": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "发送与收到的相册": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "发送时需要读取你选中的照片原文件；导入时需要向相册添加内容。Dropack 在本机处理文件，无需账号。通过系统分享给谁、用哪个应用发送，由你选择。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "发送照片或视频后，相册会保存在这里。": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "发送的是原件，不包含你在相册里另做的编辑效果。原件中的拍摄时间、位置等信息会随文件保留。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "发送给身边的人": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "取消": [
+    "PhotoRelay/UI/SendSourceSheet.swift",
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "只删除这个照片包、缩略图和 ZIP 导出文件。相册中的原照片与视频会保留。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "可以发送": [
+    "PhotoRelay/Core/PackageModels.swift"
+  ],
+  "可用空间约 %@": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "同步到相册": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "后台时间已到，已停止后续文件。正在写入的文件会等待相册返回；若应用被系统终止，请在下次打开时核对不确定项。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "回到应用后可显示系统实时活动": [
+    "PhotoRelay/Services/TransferLiveActivityCoordinator.swift"
+  ],
+  "在 TestFlight 中检查": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "外观": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "大批照片视频，轻松传。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "失败项已加入待导入列表，点击继续即可重试。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "失败项已加入待导入列表；请先核对保存结果不确定的文件。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "失败项目": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "好": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "如果写入相册时应用突然退出，最后一项可能已经保存。Dropack 会将它标记为“待核对”；请先在相册确认，避免重复。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "存入中": [
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "Shared/TransferActivityAttributes.swift"
+  ],
+  "存入相册": [
+    "Shared/TransferActivityAttributes.swift"
+  ],
+  "存入系统照片图库": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "存入系统相册": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "存入：Dropack · %@": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "完成": [
+    "PhotoRelay/UI/ImportIssueViews.swift",
+    "PhotoRelay/UI/PackageTaskBanner.swift",
+    "PhotoRelay/UI/HelpView.swift",
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "实况照片": [
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "PhotoRelay/Services/PhotoPackageService.swift",
+    "PhotoRelay/Services/PickerResourceExporter.swift",
+    "PhotoRelay/Services/PickerResourceExporter.swift"
+  ],
+  "实况照片缺少视频。": [
+    "PhotoRelay/Core/PackageImportResolver.swift"
+  ],
+  "实况视频": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "导入": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "导入任务已结束": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "导入历史无法读写，已停止以避免重复保存：%@": [
+    "PhotoRelay/Core/ImportHistoryStore.swift"
+  ],
+  "导入历史版本暂不支持，请保留记录并更新 Dropack。": [
+    "PhotoRelay/Core/ImportHistoryStore.swift"
+  ],
+  "导入历史记录不完整，已停止以避免重复保存。": [
+    "PhotoRelay/Core/ImportHistoryStore.swift"
+  ],
+  "导入记录需要处理": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "导入选项": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "导出普通 ZIP": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "尚未打开文件": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "已保存": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "已保存 %@ / %@ 项": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "已保存 %@ 项": [
+    "PhotoRelay/UI/ImportThumbnailStage.swift"
+  ],
+  "已保存全部 %@ 个文件。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "已保存的照片和视频仍在系统相册中。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "已加入待导入列表；再次导入可能产生重复照片。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "已同步": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "已在相册确认，标记为已保存": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "已处理完毕": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "已存 %@ 项 · 待存 %@ 项": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "已存入": [
+    "Shared/TransferActivityAttributes.swift"
+  ],
+  "已存入相册": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "已存相册": [
+    "PhotoRelay/UI/ImportThumbnailStage.swift"
+  ],
+  "已存过的 %@ 项已跳过。": [
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "已存过的 %@ 项已跳过，其余已存入相册。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "已完成 %@ 项，共 %@ 项": [
+    "PhotoRelay/UI/PackageTaskBanner.swift",
+    "DropackLiveActivity/DropackLiveActivity.swift",
+    "DropackLiveActivity/DropackLiveActivity.swift"
+  ],
+  "已就绪": [
+    "PhotoRelay/UI/PackageTaskBanner.swift",
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "Shared/TransferActivityAttributes.swift"
+  ],
+  "已就绪 · %@": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "已打包 %@": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "已打包 %@ / %@ 项": [
+    "PhotoRelay/UI/PackageTaskBanner.swift",
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "已暂停": [
+    "PhotoRelay/UI/PackageTaskBanner.swift",
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "PhotoRelay/Core/PackageModels.swift",
+    "Shared/TransferActivityAttributes.swift"
+  ],
+  "已暂停，可以继续。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "已暂停，完成的照片已保留。继续时会重新读取当前未完成的一项。": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "已暂停；%@ 个文件失败，可单独重试。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "已有文件正在写入相册，请等待它完成。": [
+    "PhotoRelay/Services/PhotoLibraryWriter.swift"
+  ],
+  "已标记为保存完成。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "已确认保存的内容会跳过；暂停后可继续。": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "开发测试模式 · 使用真实导入流程": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "开发版本": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "开始保存到相册": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "当前导入尚未完成。进度会保留，重新选择原文件后可继续。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "当前文件": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "当前文件处理进度": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "当前相册的进度会保留，可稍后从分享相册列表继续。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "当前素材，%@": [
+    "PhotoRelay/UI/ImportThumbnailStage.swift"
+  ],
+  "待存": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "待存入相册": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "待确认项目": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "恢复导入历史": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "恢复打包进度": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "我分享的": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "所选文件": [
+    "PhotoRelay/Services/PackageFileAccess.swift"
+  ],
+  "所选项目": [
+    "PhotoRelay/Services/PhotoPackageService.swift",
+    "PhotoRelay/Services/PickerResourceExporter.swift",
+    "PhotoRelay/Services/PickerResourceExporter.swift"
+  ],
+  "打包与导入时请保持应用在前台。锁屏或进入后台会请求暂停；正在写入相册的文件需要先收尾。重新打开后可以继续，已完成的项目会跳过。打包时未完成的一项会重新读取。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "打包中": [
+    "PhotoRelay/UI/PackageTaskBanner.swift",
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "Shared/TransferActivityAttributes.swift"
+  ],
+  "打包任务详情": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "打包已暂停，已完成的照片已保留。继续时会重新读取当前未完成的一项。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "打包记录需要处理": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "打包进度记录损坏或版本不受支持，请清除任务后重新选择照片。": [
+    "PhotoRelay/Core/PackageModels.swift"
+  ],
+  "打包进度，已完成 %@ 项，共 %@ 项": [
+    "PhotoRelay/UI/NativePackageProgress.swift"
+  ],
+  "打包需要照片包和当前文件缓存的空间；导入需要新增相册内容与当前文件缓存的空间。原文件和原照片始终保留。来自 iCloud 的原文件可能需要先下载。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "打包需要额外空间保存照片包和当前文件缓存。原照片会保留；锁屏或进入后台会暂停。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "打开 App Store": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "打开分享相册或文件": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "打开对应任务": [
+    "DropackLiveActivity/DropackLiveActivity.swift"
+  ],
+  "打开所选文件": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "打开文件": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "打开新的文件？": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "打开朋友分享的相册后，会保存在这里。": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "扫描已停止。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "扫描文件": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "找到 %@ 个照片或视频，忽略 %@ 个其他项目。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "把 U 盘或读卡器接上 iPhone，在选择素材页点左上角的来源图标，切换到“文件 / U 盘”，然后在系统“浏览”的位置列表中找到它。可选择素材文件夹、单个视频或照片，也可选择照片包或 ZIP。原文件会保留。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "支持 .dropack 照片包、普通未加密 ZIP、单个照片或视频与文件夹。不支持加密或分卷 ZIP，也不会为不兼容的视频转码。照片与视频能否保存取决于 iOS 相册支持的格式。Dropack 自己生成的照片包会携带配对信息；普通 ZIP 中同名的 JPG 和 MOV 不会自动视为 Live Photo。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "收到 %@ 个待打开文件": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "收到一个分享相册": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "收到一个文件": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "收到以后": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "收到的": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "收取": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "收起打包消息": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "文件": [
+    "PhotoRelay/UI/SendSourceSheet.swift"
+  ],
+  "文件内容在核对时发生变化，请重新选择来源。": [
+    "PhotoRelay/Core/ImportContentIdentity.swift"
+  ],
+  "文件内容校验值无效。": [
+    "PhotoRelay/Core/ImportContentIdentity.swift"
+  ],
+  "文件提供方未返回内容。": [
+    "PhotoRelay/Core/ImportContentIdentity.swift"
+  ],
+  "文件数量过多，请分成几个照片包导入。": [
+    "PhotoRelay/Services/MediaSourceService.swift",
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "文件长度不正确。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "新增 %@ 项 · 移除 %@ 项": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "无法写入照片包，请检查设备剩余空间后继续。%@": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "无法准备临时文件：%@": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "无法准备分享：%@": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "无法创建临时文件。": [
+    "PhotoRelay/Core/ResumableFileCopy.swift"
+  ],
+  "无法创建临时文件，请检查设备可用空间。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "无法删除照片包：%@": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "无法安全恢复上次打包，请清除任务并重新打包；原相册不会受影响。": [
+    "PhotoRelay/Core/PackageModels.swift"
+  ],
+  "无法导出“%@”的原始照片或视频格式。请在照片中确认原文件可用后重试。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "无法恢复打包进度：%@ 清除任务只会移除本应用生成的文件，原相册不会受影响。": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "无法打开历史文件": [
+    "PhotoRelay/Core/ImportHistoryStore.swift"
+  ],
+  "无法打开照片包：%@": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "无法核对文件内容：%@": [
+    "PhotoRelay/Core/ImportContentIdentity.swift"
+  ],
+  "无法清除照片包：%@": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "无法清除进度记录：%@": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "无法确认剩余空间。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "无法确认设备剩余空间，请稍后重试。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "无法读取当前版本，请在 App Store 中查看。": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "无法读取来源文件。请确认 U 盘仍已连接，或文件已下载到本机；必要时重新选择原文件。已保存的项目会保留。%@": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "无法读取照片包列表：%@": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "无法读取这个 ZIP。它可能不完整、已损坏，或使用了不支持的压缩方式。%@": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "旧任务没有可验证的内容记录，无法安全关联这个文件夹。请先核对旧任务与相册。": [
+    "PhotoRelay/Core/ImportContentIdentity.swift"
+  ],
+  "旧任务没有可验证的内容记录，无法安全关联这个来源。请先核对旧任务与相册。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "暂不打开": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "暂不支持分卷 ZIP。请先合并为单个 ZIP，或选择已经解压的文件夹。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "暂不支持加密 ZIP。请先在“文件”中解压，或让朋友重新制作不带密码的单个 ZIP。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "暂停中": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "暂停保存": [
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "暂停同步": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "暂停导入": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "暂停当前任务并打开": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "暂停打包": [
+    "PhotoRelay/UI/PackageTaskBanner.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "暂无待保存文件": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "暂时无法检查更新，请稍后重试。": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "暂时无法访问原文件。请重新连接 U 盘，并重新选择原文件或文件夹。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "有保存结果不确定的项目，请先核对相册，避免重复导入。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "有照片已删除、移出授权范围或无法读取。请恢复照片访问权限后继续，或重新选择照片。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "未压缩的文件先按块暂存到手机，暂停后可从已暂存的位置继续读取；重新连接来源时会核对文件。ZIP 按条目解压，未完成的条目需要重新解压。保存到相册由 iOS 整项提交，无法从半个视频继续写入相册。请保持前台和 U 盘连接。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "未能打开所选文件，请重新选择。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "未能打开文件": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "本机处理，无需账号": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "本次新增 %@ 项 · 已有 %@ 项": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "权限与隐私": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "来源中的“%@”已被移动或修改，请重新选择来源。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "来源文件在扫描后发生了变化，请重新选择并核对来源。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "查看任务详情": [
+    "PhotoRelay/UI/NativePackageProgress.swift"
+  ],
+  "查看分享相册": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "查看原因并处理后，可以把失败项目重新加入队列。": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "查看当前文件和任务说明": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "查看照片包": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "核对后处理": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "核对实况视频": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "核对导入历史": [
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "核对已读取部分": [
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "核对文件": [
+    "PhotoRelay/Services/PhotoPackageService.swift",
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "核对源文件": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "核对照片内容": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "核对照片包": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "检查更新": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "检查更新超时，请重试。": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "正在保存": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "正在准备任务": [
+    "DropackLiveActivity/DropackLiveActivity.swift",
+    "DropackLiveActivity/DropackLiveActivity.swift"
+  ],
+  "正在准备分享相册…": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "正在准备照片包…": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "正在同步": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "正在安全暂停…": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "正在打包": [
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/Core/PackageModels.swift",
+    "PhotoRelay/Services/PhotoPackageService.swift",
+    "PhotoRelay/Services/PhotoPackageService.swift",
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "正在暂停": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "正在暂停…": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "正在暂停。已保存的项目会保留；当前条目下次重新解压。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "正在暂停。已读取的部分会保留，继续时先核对原文件，再读取剩余部分。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "正在暂停，保留已完成的照片并恢复当前 ZIP 检查点…": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "正在暂停：等当前文件写入相册后停止。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "正在核对文件": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "正在读取文件…": [
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "正在读取素材": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "此地区的 App Store 暂未发现更新版本。": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "此地区的 App Store 暂未找到 Dropack，无法确认更新。": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "此文件中未找到支持的照片或视频。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "浅色": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "测试版更新由 TestFlight 管理。": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "深色": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "清理临时文件": [
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "清理照片包": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "清除导入任务会保留已确认的保存历史，不会删除原件或相册内容。清除照片包只会删除 Dropack 生成的包、ZIP 导出文件、缓存和打包记录。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "清除损坏记录": [
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "清除照片包": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "清除照片包与打包记录？": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "清除这次导入记录？": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "源文件已变化，或与原任务不一致。请重新选择原照片包、视频或文件夹；已保存项目不会重复导入。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "照片": [
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "照片与视频": [
+    "PhotoRelay/UI/SendSourceSheet.swift"
+  ],
+  "照片包": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "照片包与打包记录不一致，无法安全发送。请清除任务后重新打包；原相册不会受影响。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "照片包已就绪": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "照片包已就绪，可以分享了": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "照片包清单": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "照片包清单损坏。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "照片包清单无法核对：%@": [
+    "PhotoRelay/Core/PackageImportResolver.swift"
+  ],
+  "照片包清单格式不正确。": [
+    "PhotoRelay/Services/MediaSourceService.swift",
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "照片包清单超过限制。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "照片包清单过大。": [
+    "PhotoRelay/Services/MediaSourceService.swift",
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "照片包清单重复或类型不正确。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "照片包的清单格式不完整或不受支持。": [
+    "PhotoRelay/Core/PackageModels.swift"
+  ],
+  "照片已保存，加入分享相册时失败。点击继续重试。%@": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "照片打包": [
+    "PhotoRelay/UI/PackageTaskBanner.swift",
+    "Shared/TransferActivityAttributes.swift"
+  ],
+  "照片打包总进度": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "照片预览": [
+    "PhotoRelay/UI/ImportThumbnailStage.swift"
+  ],
+  "版本": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "生成照片包清单": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "目录记录不完整。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "相册": [
+    "PhotoRelay/UI/SendSourceSheet.swift",
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/UI/ImportThumbnailStage.swift"
+  ],
+  "相册不在本机": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "相册保存失败：%@": [
+    "PhotoRelay/Services/PhotoLibraryWriter.swift"
+  ],
+  "相册保存进度": [
+    "PhotoRelay/UI/ImportThumbnailStage.swift"
+  ],
+  "相册名称": [
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "相册已返回保存成功，但进度记录失败。请在相册核对后处理，避免重复导入。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "相册类别": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "相册选项": [
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "移除": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "移除当前记录": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "移除本地记录": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "移除本地记录和预览，原文件、系统相册及已保存的去重记录都会保留。": [
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "移除记录": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "移除这本分享相册？": [
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "稍后处理": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "空间与格式": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "等待下一项": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "等待当前任务安全暂停…": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "系统实时活动已关闭": [
+    "PhotoRelay/Services/TransferLiveActivityCoordinator.swift"
+  ],
+  "系统实时活动已结束": [
+    "PhotoRelay/Services/TransferLiveActivityCoordinator.swift"
+  ],
+  "系统实时活动暂不可用": [
+    "PhotoRelay/Services/TransferLiveActivityCoordinator.swift"
+  ],
+  "系统已返回 AirDrop 分享完成。接收者可用 Dropack 或其他支持 ZIP 的应用打开。": [
+    "PhotoRelay/UI/ArchiveShareSheet.swift"
+  ],
+  "系统已返回 AirDrop 分享完成。接收设备安装 Dropack 后，可打开照片包并确认保存到相册。": [
+    "PhotoRelay/UI/ArchiveShareSheet.swift"
+  ],
+  "系统已返回分享完成。照片包仍保留在这里；接收后还需要导入相册。": [
+    "PhotoRelay/UI/ArchiveShareSheet.swift"
+  ],
+  "系统未提供错误详情。": [
+    "PhotoRelay/Services/PhotoLibraryWriter.swift",
+    "PhotoRelay/Services/SystemAlbumService.swift"
+  ],
+  "系统未返回新相册的关联信息，请重试。": [
+    "PhotoRelay/Services/SystemAlbumService.swift"
+  ],
+  "系统没有提供部分原照片的标识，无法安全恢复这次选择。请重新创建分享相册；旧相册中已读取的资源仍保留。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "系统相册关联记录无法读取，原照片没有改动。": [
+    "PhotoRelay/Services/SystemAlbumService.swift"
+  ],
+  "系统相册更新失败：%@": [
+    "PhotoRelay/Services/SystemAlbumService.swift"
+  ],
+  "继续上次": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "继续保存": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "继续保存到相册": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "继续存入相册": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "继续打包": [
+    "PhotoRelay/UI/PackageTaskBanner.swift",
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "缩略图": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "缺少 ZIP 目录结尾。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "缺少 ZIP64 定位信息。": [
+    "PhotoRelay/Core/ZipDirectoryValidator.swift",
+    "PhotoRelay/Core/ZipDirectoryValidator.swift"
+  ],
+  "视频": [
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "解压当前文件": [
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "设备空间不足。当前步骤需要约 %@，可用 %@。请释放空间后继续。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "设置": [
+    "PhotoRelay/UI/SettingsView.swift",
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "语言": [
+    "PhotoRelay/UI/SettingsView.swift",
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "请先在相册确认这个文件": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "请先在相册逐个核对，再选择处理方式。": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "请先处理失败项目": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "请先处理无法读取的导入记录，再打开新照片包。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "请先暂停，并等待当前文件处理完成后再清除任务。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "请先暂停，等待当前操作结束后再删除照片包。": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "请先核对保存结果不确定的文件。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "请先核对待确认项目": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "请先核对旧任务中保存结果不确定的项目，再清除或更换来源。": [
+    "PhotoRelay/Core/ImportHistoryStore.swift"
+  ],
+  "请刷新相册后重试。": [
+    "PhotoRelay/Services/SystemAlbumService.swift",
+    "PhotoRelay/Services/SystemAlbumService.swift"
+  ],
+  "请在“设置 → 隐私与安全性 → 照片”中允许 Dropack 添加照片。": [
+    "PhotoRelay/Services/PhotoLibraryWriter.swift"
+  ],
+  "请打开 TestFlight，在 Dropack 页面查看可用版本。": [
+    "PhotoRelay/UI/SettingsView.swift",
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "请求添加照片权限": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "请选择 .dropack 照片包、ZIP、照片、视频或文件夹。可在“文件”的位置列表中打开已连接的 U 盘。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "请选择支持的照片或视频。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "请选择真实文件夹。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "请选择真实的照片包、照片或视频文件。": [
+    "PhotoRelay/Services/MediaSourceService.swift"
+  ],
+  "请选择要发送的照片或视频。": [
+    "PhotoRelay/Services/PackageController.swift"
+  ],
+  "请重新打开原来的 Dropack 文件。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "请重新选择原文件。": [
+    "PhotoRelay/UI/ContentView.swift",
+    "PhotoRelay/Services/PackageFileAccess.swift"
+  ],
+  "请重新选择这个分享相册中尚未读取的原照片或视频。所选项目不匹配，已有资源没有改变。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "请预留新增相册内容和当前文件缓存的空间。原文件会保留；锁屏或进入后台会暂停。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "请预留足够的手机空间": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "读取原片": [
+    "PhotoRelay/Services/PhotoPackageService.swift",
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "读取已暂停，已读取资源已保留。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "读取当前文件": [
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "读取所选资源": [
+    "PhotoRelay/Services/PhotoPackageService.swift",
+    "PhotoRelay/Services/PhotoPackageService.swift",
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "读取文件": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "资源缺失、类型不匹配或重复：%@": [
+    "PhotoRelay/Core/PackageImportResolver.swift"
+  ],
+  "跟随系统": [
+    "PhotoRelay/UI/SettingsView.swift",
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "还没有分享相册": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "还没有发送的相册": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "还没有收到的相册": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "这个导入任务已结束。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "这个照片包已不在本机。": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "这个照片包的文件数量或清单超过首版上限，暂不能生成可发送的包。请清除本次任务，分成几个较小的照片包；原相册不会受影响。": [
+    "PhotoRelay/Core/PackageModels.swift"
+  ],
+  "这个照片包的记录无法读取。原文件已保留，可单独删除这个包后重新选择照片。": [
+    "PhotoRelay/Core/PackageLibraryStore.swift"
+  ],
+  "这个系统相册已经没有照片或视频。请先添加内容，再更新分享相册。旧分享文件已保留。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "这是开发版本，请通过开发工具安装更新。": [
+    "PhotoRelay/UI/SettingsView.swift"
+  ],
+  "这里没有需要处理的项目。": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "这项内容已有确认的保存记录，已跳过重复写入。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "这项内容的上次保存结果不确定，请先核对相册。": [
+    "PhotoRelay/Services/ImportController.swift",
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "进度、暂停和恢复": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "进度会保存在这台设备上。锁屏或切到后台会安全暂停，回来后可以继续。": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "进度已保留，随时继续": [
+    "PhotoRelay/UI/PackageTaskBanner.swift"
+  ],
+  "进度待更新": [
+    "DropackLiveActivity/DropackLiveActivity.swift"
+  ],
+  "进度或导入历史无法读取：%@ 请先核对相册，再清除记录。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "进度记录写入失败，已停止导入：%@ 已确认保存的文件会保留；请不要重复导入不确定项。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "进度记录无法读取。为避免重复导入，请先核对相册。": [
+    "PhotoRelay/Core/CheckpointStore.swift"
+  ],
+  "进度记录无法读取。请先核对相册，再清除损坏记录。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "进度记录无法读取：%@ 请先核对相册，再清除记录。": [
+    "PhotoRelay/Services/ImportController.swift"
+  ],
+  "进度记录版本 %@ 暂不支持。请保留记录并更新应用。": [
+    "PhotoRelay/Core/CheckpointStore.swift"
+  ],
+  "连续": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "选择照片、视频或压缩包，保存到系统相册。": [
+    "PhotoRelay/UI/ShareAlbumViews.swift"
+  ],
+  "选择照片与视频，等待打包完成，再点击“AirDrop / 分享”，在系统面板选择接收设备。默认发送 .dropack 照片包；对方没有安装 Dropack 时，可以选择“导出普通 ZIP”。打包不额外压缩画质，每次新发送从本次选择开始；历史照片包可在首页“照片包”中预览、重发或删除。": [
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "选择照片或文件": [
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "选择照片或文件后，就会保存在这里。": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "部分所选资源尚未读取完成。请重新选择这些照片或视频；已经读取的资源仍保留在这个分享相册中。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "部分照片已不在系统相册中，请刷新后重试。": [
+    "PhotoRelay/Services/SystemAlbumService.swift"
+  ],
+  "重命名": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "重新创建分享相册": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "重新导入，可能产生重复项": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "重新连接原文件": [
+    "PhotoRelay/UI/ShareAlbumViews.swift",
+    "PhotoRelay/UI/ContentView.swift"
+  ],
+  "重新选择未读完的照片": [
+    "PhotoRelay/UI/PackageLibraryViews.swift"
+  ],
+  "重试全部失败项目": [
+    "PhotoRelay/UI/ImportIssueViews.swift"
+  ],
+  "隐私政策": [
+    "PhotoRelay/UI/SettingsView.swift",
+    "PhotoRelay/UI/HelpView.swift"
+  ],
+  "需处理": [
+    "PhotoRelay/UI/PackageTaskBanner.swift",
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "PhotoRelay/UI/PackageLibraryViews.swift",
+    "Shared/TransferActivityAttributes.swift"
+  ],
+  "需要处理": [
+    "PhotoRelay/Core/PackageModels.swift"
+  ],
+  "需要读取照片权限。请在系统设置中允许 Dropack 访问所选照片；有限访问时只能打包已授权的照片。": [
+    "PhotoRelay/Services/PhotoPackageService.swift"
+  ],
+  "项目缺少资源。": [
+    "PhotoRelay/Core/PackageImportResolver.swift"
+  ],
+  "预览图超过大小限制。": [
+    "PhotoRelay/Core/PackageImportResolver.swift"
+  ]
+}

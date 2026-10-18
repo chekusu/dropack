@@ -1,0 +1,38 @@
+name: Verify Dropack
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+      - name: Check project and translations
+        run: |
+          python3 scripts/generate_project.py --check
+          python3 scripts/localization_audit.py
+          python3 -m unittest discover -s scripts/tests
+          plutil -lint Dropack.xcodeproj/project.pbxproj PhotoRelay/Info.plist
+      - name: Test core and ZIP interoperability
+        run: |
+          swift test --build-system native
+          swift test --build-system native --package-path Tests/ZIPIntegration
+      - name: Build unsigned iOS simulator app
+        run: >-
+          xcodebuild -project Dropack.xcodeproj -scheme Dropack
+          -configuration Debug -destination 'generic/platform=iOS Simulator'
+          -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO build

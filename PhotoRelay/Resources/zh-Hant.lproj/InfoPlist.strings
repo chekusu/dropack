@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "Dropack";
+"Dropack Package" = "Dropack · 照片包";
+"ZIP Package" = "ZIP · 照片包";
+"NSPhotoLibraryAddUsageDescription" = "將照片包中的照片、原況照片和影片逐項保存到系統相簿。";
+"NSPhotoLibraryUsageDescription" = "選擇你想發送的照片和影片，讀取原始資源並在本機打成照片包。僅處理你選擇的內容。";
