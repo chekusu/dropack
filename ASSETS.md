@@ -1,6 +1,6 @@
 # Published assets
 
-The four PNG files in `PhotoRelay/Assets.xcassets` are Dropack's app icon, wordmark, and send/receive illustrations. They were created for this project using image-generation and production tools and are included under the repository's MIT license to the extent of CHEKUSU's rights. Trademark rights are not granted by the license; forks should identify themselves clearly.
+The four PNG files in `Dropack/Assets.xcassets` are Dropack's app icon, wordmark, and send/receive illustrations. They were created for this project using image-generation and production tools and are included under the repository's MIT license to the extent of CHEKUSU's rights. Trademark rights are not granted by the license; forks should identify themselves clearly.
 
 This source distribution contains no personal photo library, avatar reference photos, voice recordings, promotional films, or device screenshots. Private production and test media are not required to build the app.
 

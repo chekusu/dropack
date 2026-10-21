@@ -1,4 +1,4 @@
-<p align="center"><img src="PhotoRelay/Assets.xcassets/AppIcon.appiconset/AppIcon.png" width="112" alt="Dropack icon"></p>
+<p align="center"><img src="Dropack/Assets.xcassets/AppIcon.appiconset/AppIcon.png" width="112" alt="Dropack icon"></p>
 
 # Dropack
 
@@ -31,7 +31,7 @@ open Dropack.xcodeproj
 
 Choose the `Dropack` scheme and an iPhone or iPad simulator. Xcode resolves **ZIPFoundation 0.9.20**, pinned in the project and integration-test package.
 
-For a device build, use your own Apple development team. Forks must choose their own app and Live Activity extension bundle identifiers. If you change the `app.dropack.ios` prefix, update the background-task identifiers in `PhotoRelay/Info.plist` and `PhotoRelay/Services/PackageBackgroundExecution.swift` as well. The project generator contains the bundle-ID defaults; update it before regenerating the project. No signing certificates, provisioning profiles, Apple credentials, or official Expo release configuration are included.
+For a device build, use your own Apple development team. Forks must choose their own app and Live Activity extension bundle identifiers. If you change the `app.dropack.ios` prefix, update the background-task identifiers in `Dropack/Info.plist` and `Dropack/Services/PackageBackgroundExecution.swift` as well. The project generator contains the bundle-ID defaults; update it before regenerating the project. No signing certificates, provisioning profiles, Apple credentials, or official Expo release configuration are included.
 
 An unsigned simulator build:
 
@@ -55,14 +55,14 @@ After adding Swift files, run `python3 scripts/generate_project.py`. After chang
 
 | Directory | Contents |
 | --- | --- |
-| `PhotoRelay/Core` | Album models, checkpoints, ZIP validation, resumable file copying, and import identity |
-| `PhotoRelay/Services` | PhotoKit, file access, packaging/import workers, previews, and background execution |
-| `PhotoRelay/UI` | SwiftUI screens and native UIKit presentations |
+| `Dropack/Core` | Album models, checkpoints, ZIP validation, resumable file copying, and import identity |
+| `Dropack/Services` | PhotoKit, file access, packaging/import workers, previews, and background execution |
+| `Dropack/UI` | SwiftUI screens and native UIKit presentations |
 | `Shared`, `DropackLiveActivity` | ActivityKit data and the Live Activity extension |
 | `Tests` | Core, ZIP interoperability, app integration, and UI tests |
 | `localization` | Translation sources for 16 languages |
 
-`PhotoRelay` is the original source-directory name. The product is Dropack. ZIP test fixtures are generated from synthetic data by `Tests/ZIPIntegration/generate_fixtures.py`.
+ZIP test fixtures are generated from synthetic data by `Tests/ZIPIntegration/generate_fixtures.py`.
 
 ## Boundaries
 

@@ -30,7 +30,7 @@ open Dropack.xcodeproj
 
 选择 `Dropack` scheme 和 iPhone / iPad 模拟器即可构建。Xcode 会下载固定版本 ZIPFoundation 0.9.20。
 
-真机运行使用自己的 Apple 开发团队，并为 App 和 Live Activity 扩展设置独立的 Bundle ID。修改 `app.dropack.ios` 前缀时，也要同步修改 `PhotoRelay/Info.plist`、`PhotoRelay/Services/PackageBackgroundExecution.swift` 和工程生成脚本中的相关标识。公开仓库不含官方签名凭据及 Expo 发布配置。
+真机运行使用自己的 Apple 开发团队，并为 App 和 Live Activity 扩展设置独立的 Bundle ID。修改 `app.dropack.ios` 前缀时，也要同步修改 `Dropack/Info.plist`、`Dropack/Services/PackageBackgroundExecution.swift` 和工程生成脚本中的相关标识。公开仓库不含官方签名凭据及 Expo 发布配置。
 
 ```sh
 python3 scripts/generate_project.py --check
@@ -43,7 +43,7 @@ xcodebuild -project Dropack.xcodeproj -scheme Dropack \
   -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO build
 ```
 
-目录结构和贡献说明见 [英文 README](README.md)、[CONTRIBUTING.md](CONTRIBUTING.md) 和[本地化说明](localization/README.md)。`PhotoRelay` 是保留的源代码目录名，产品名为 Dropack。
+目录结构和贡献说明见 [英文 README](README.md)、[CONTRIBUTING.md](CONTRIBUTING.md) 和[本地化说明](localization/README.md)。
 
 ## 使用边界
 

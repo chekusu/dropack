@@ -26,7 +26,7 @@ jobs:
           python3 scripts/generate_project.py --check
           python3 scripts/localization_audit.py
           python3 -m unittest discover -s scripts/tests
-          plutil -lint Dropack.xcodeproj/project.pbxproj PhotoRelay/Info.plist
+          plutil -lint Dropack.xcodeproj/project.pbxproj Dropack/Info.plist
       - name: Test core and ZIP interoperability
         run: |
           swift test --build-system native
