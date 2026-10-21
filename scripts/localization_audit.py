@@ -27,7 +27,7 @@ def main():
     english = json.loads((ROOT / 'localization/en.json').read_text())
     catalogs = {}
     issues = []
-    for directory in ['PhotoRelay', 'Shared', 'DropackLiveActivity']:
+    for directory in ['Dropack', 'Shared', 'DropackLiveActivity']:
         for source in (ROOT / directory).rglob('*.swift'):
             if source.name == 'L10n.swift':
                 continue  # Language names are intentionally written natively.
@@ -59,11 +59,11 @@ def main():
     if issues:
         raise SystemExit('\n'.join(issues))
     if args.write:
-        resource = ROOT / 'PhotoRelay/Core/Resources/Translations.json'
+        resource = ROOT / 'Dropack/Core/Resources/Translations.json'
         resource.parent.mkdir(parents=True, exist_ok=True)
         resource.write_text(json.dumps(catalogs, ensure_ascii=False, indent=2, sort_keys=True) + '\n')
         for code, values in catalogs.items():
-            directory = ROOT / 'PhotoRelay/Resources' / f'{code}.lproj'
+            directory = ROOT / 'Dropack/Resources' / f'{code}.lproj'
             directory.mkdir(parents=True, exist_ok=True)
             entries = {'CFBundleDisplayName':'Dropack', 'Dropack Package': 'Dropack · ' + values['照片包'], 'ZIP Package': 'ZIP · ' + values['照片包'], **{key:values[source] for key,source in PERMISSIONS.items()}}
             (directory / 'InfoPlist.strings').write_text('\n'.join(f'{quoted(key)} = {quoted(value)};' for key,value in entries.items()) + '\n')

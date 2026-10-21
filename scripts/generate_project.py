@@ -15,7 +15,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-APP = ROOT / "PhotoRelay"
+APP = ROOT / "Dropack"
 PROJECT = ROOT / "Dropack.xcodeproj"
 
 
@@ -24,6 +24,7 @@ class Literal(str):
 
 
 def identifier(name: str) -> Literal:
+    # "PhotoRelay" is a frozen salt from the old directory name; changing it rewrites every ID.
     return Literal(hashlib.sha256(f"PhotoRelay:{name}".encode()).hexdigest()[:24].upper())
 
 
@@ -94,7 +95,7 @@ def generate() -> dict[Path, str]:
         name = directory.as_posix()
         return add(
             f"group:{name}", "PBXGroup", children=children,
-            path="PhotoRelay" if directory == Path(".") else directory.name,
+            path="Dropack" if directory == Path(".") else directory.name,
             sourceTree="<group>",
         )
 
@@ -181,7 +182,7 @@ def generate() -> dict[Path, str]:
             "CURRENT_PROJECT_VERSION": "14",
             "ENABLE_PREVIEWS": "YES",
             "GENERATE_INFOPLIST_FILE": "NO",
-            "INFOPLIST_FILE": "PhotoRelay/Info.plist",
+            "INFOPLIST_FILE": "Dropack/Info.plist",
             "LD_RUNPATH_SEARCH_PATHS": ["$(inherited)", "@executable_path/Frameworks"],
             "MARKETING_VERSION": "1.0",
             "PRODUCT_BUNDLE_IDENTIFIER": "app.dropack.ios",

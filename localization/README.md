@@ -15,6 +15,6 @@ python3 scripts/localization_audit.py --write
 python3 scripts/generate_project.py
 ```
 
-The audit checks all source keys, locale coverage, nonempty values, parameter counts and copied-English placeholders. It produces `PhotoRelay/Core/Resources/Translations.json` for both executables and all 16 `InfoPlist.strings` permission descriptions. The build generator includes these resources and declares English as the development language.
+The audit checks all source keys, locale coverage, nonempty values, parameter counts and copied-English placeholders. It produces `Dropack/Core/Resources/Translations.json` for both executables and all 16 `InfoPlist.strings` permission descriptions. The build generator includes these resources and declares English as the development language.
 
 Automatic validation does not replace native-language editorial review. Device UI testing should include German text lengths, Japanese, Arabic direction, large text, and changing languages during an existing album task.

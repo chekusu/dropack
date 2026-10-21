@@ -2,7 +2,7 @@ import SwiftUI
 
 @main
 @MainActor
-struct PhotoRelayApp: App {
+struct DropackApp: App {
     @StateObject private var controller: ImportController
     @StateObject private var packageController: PackageController
     @StateObject private var inbox = IncomingArchiveInbox()
