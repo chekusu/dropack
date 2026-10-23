@@ -490,7 +490,11 @@ final class DropackUITests: XCTestCase {
         let frame = image.frame
         let viewport = app.scrollViews["photosView_content_scroll_view"].frame
         XCTAssertFalse(frame.isEmpty)
-        XCTAssertTrue(app.frame.contains(frame) && viewport.contains(frame),
+        // Grid layout can report sub-point float noise at the edge (e.g. minX of
+        // -8.5e-07), so allow half a point of slack without accepting clipped cells.
+        let tolerance: CGFloat = 0.5
+        XCTAssertTrue(app.frame.insetBy(dx: -tolerance, dy: -tolerance).contains(frame)
+                      && viewport.insetBy(dx: -tolerance, dy: -tolerance).contains(frame),
                       "Only an observed, fully visible photo thumbnail may receive a coordinate tap: \(frame)")
         let origin = app.coordinate(withNormalizedOffset: CGVector(dx: 0, dy: 0))
         origin.withOffset(CGVector(dx: frame.midX - app.frame.minX,
