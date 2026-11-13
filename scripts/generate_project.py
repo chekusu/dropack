@@ -184,7 +184,7 @@ def generate() -> dict[Path, str]:
             "GENERATE_INFOPLIST_FILE": "NO",
             "INFOPLIST_FILE": "Dropack/Info.plist",
             "LD_RUNPATH_SEARCH_PATHS": ["$(inherited)", "@executable_path/Frameworks"],
-            "MARKETING_VERSION": "1.0",
+            "MARKETING_VERSION": "1.0.3",
             "PRODUCT_BUNDLE_IDENTIFIER": "app.dropack.ios",
             "PRODUCT_NAME": "$(TARGET_NAME)",
             "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",
@@ -248,7 +248,7 @@ def generate() -> dict[Path, str]:
     for configuration in ("Debug", "Release"):
         settings = {
             "APPLICATION_EXTENSION_API_ONLY": "YES", "CODE_SIGN_STYLE": "Automatic",
-            "CURRENT_PROJECT_VERSION": "14", "MARKETING_VERSION": "1.0",
+            "CURRENT_PROJECT_VERSION": "14", "MARKETING_VERSION": "1.0.3",
             "GENERATE_INFOPLIST_FILE": "NO", "INFOPLIST_FILE": "DropackLiveActivity/Info.plist",
             "IPHONEOS_DEPLOYMENT_TARGET": "17.0", "PRODUCT_BUNDLE_IDENTIFIER": "app.dropack.ios.liveactivity",
             "PRODUCT_NAME": "$(TARGET_NAME)", "SKIP_INSTALL": "YES", "SWIFT_VERSION": "5.0",
