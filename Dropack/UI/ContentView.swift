@@ -1,5 +1,6 @@
 import SwiftUI
 import Foundation
+import StoreKit
 import UIKit
 
 enum RelayTheme {
@@ -29,6 +30,8 @@ struct ContentView: View {
     let activityBridge: TransferLiveActivityBridge
     @Environment(\.scenePhase) private var scenePhase
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
+    @Environment(\.requestReview) private var requestReview
+    @AppStorage(ReviewPromptPolicy.lastRequestedVersionKey) private var lastReviewPromptVersion = ""
     @State private var path: [WorkflowRoute] = []
     @State private var activeSheet: DropackSheet?
     @State private var pendingSendSource: SendSourceChoice?
@@ -370,6 +373,7 @@ struct ContentView: View {
             }
         }
         .onChange(of: controller.job?.savedCount) { _, _ in refreshAvailableSpace() }
+        .onChange(of: controller.finishedImport?.id) { _, _ in requestReviewAfterImport() }
         .onChange(of: activeAlert == nil) { _, dismissed in
             if dismissed {
                 resumeApprovedReplacement()
@@ -776,6 +780,26 @@ struct ContentView: View {
                 showPackageDetail(sharedSnapshot)
                 presentShare(url: url, packageID: sharedSnapshot)
             }
+        }
+    }
+
+    /// Ask StoreKit for a rating once per app version, after an import that saved
+    /// something new. Wait until the finished state is on screen and nothing else
+    /// is presented; StoreKit still decides whether a prompt appears at all.
+    private func requestReviewAfterImport() {
+        guard let finished = controller.finishedImport, !inbox.isTestMode else { return }
+        let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
+        guard ReviewPromptPolicy.shouldRequest(newlySavedCount: finished.newlySavedCount, appVersion: version,
+                                               lastRequestedVersion: lastReviewPromptVersion),
+              let version else { return }
+        Task {
+            try? await Task.sleep(nanoseconds: 1_500_000_000)
+            guard controller.finishedImport?.id == finished.id, scenePhase == .active, !working,
+                  !preparingShare, sheetDismissalFinished, activeSheet == nil, activeAlert == nil,
+                  ReviewPromptPolicy.shouldRequest(newlySavedCount: finished.newlySavedCount, appVersion: version,
+                                                   lastRequestedVersion: lastReviewPromptVersion) else { return }
+            lastReviewPromptVersion = version
+            requestReview()
         }
     }
 
