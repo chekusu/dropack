@@ -25,6 +25,9 @@ final class ImportController: ObservableObject {
     @Published private(set) var needsRelink = false
     @Published private(set) var requiresReset = false
     @Published private(set) var scannedCount = 0
+    /// Set when a run finishes with every item resolved and at least one new
+    /// item saved to Photos. The UI uses it to decide on a rating prompt.
+    @Published private(set) var finishedImport: FinishedImport?
     @Published var delaySeconds: Double = 0.5 {
         didSet { updateDelay() }
     }
@@ -46,6 +49,7 @@ final class ImportController: ObservableObject {
     private var stopRequested = false
     private var applyingStoredDelay = false
     private var journalFailureDuringRun = false
+    private var savedThisRun = 0
     private var isAuthorizing = false
     private var progressToken: UUID?
     private var backgroundTask: UIBackgroundTaskIdentifier = .invalid
@@ -177,6 +181,7 @@ final class ImportController: ObservableObject {
         isBusy = true
         stopRequested = false
         journalFailureDuringRun = false
+        savedThisRun = 0
         message = nil
         let token = UUID()
         progressToken = token
@@ -810,6 +815,7 @@ final class ImportController: ObservableObject {
             try await history.confirm(identity: identity, jobID: completed.id, itemID: item.id,
                 assetIdentifier: assetIdentifier, sourceIdentity: completed.source.contentIdentity)
             try persist(completed)
+            savedThisRun += 1
         } catch {
             // This is a JOURNAL error after a successful Photos transaction, never a
             // Photos failure eligible for automatic retry. Leave its staged file intact.
@@ -904,6 +910,9 @@ final class ImportController: ObservableObject {
         do {
             try persist(candidate)
             message = candidate.lastMessage
+            if candidate.phase == .completed, !stopRequested, savedThisRun > 0 {
+                finishedImport = FinishedImport(newlySavedCount: savedThisRun)
+            }
         } catch {
             stopForJournalError(error, candidate: candidate)
         }
@@ -1188,6 +1197,11 @@ final class ImportController: ObservableObject {
         UIApplication.shared.endBackgroundTask(backgroundTask)
         backgroundTask = .invalid
     }
+}
+
+struct FinishedImport: Identifiable, Equatable {
+    let id = UUID()
+    let newlySavedCount: Int
 }
 
 private enum RelayError: LocalizedError {
