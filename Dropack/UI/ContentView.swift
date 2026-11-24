@@ -794,7 +794,13 @@ struct ContentView: View {
               let version else { return }
         Task {
             try? await Task.sleep(nanoseconds: 1_500_000_000)
-            guard controller.finishedImport?.id == finished.id, scenePhase == .active, !working,
+            let detailID: UUID?
+            switch path.last?.workflow {
+            case .oneTimeImport(let id), .receivedAlbum(let id): detailID = id
+            default: detailID = nil
+            }
+            guard ReviewPromptPolicy.isShowingCompletion(job: controller.job, finishedID: finished.jobID, detailID: detailID),
+                  controller.finishedImport?.id == finished.id, scenePhase == .active, !working,
                   !preparingShare, sheetDismissalFinished, activeSheet == nil, activeAlert == nil,
                   ReviewPromptPolicy.shouldRequest(newlySavedCount: finished.newlySavedCount, appVersion: version,
                                                    lastRequestedVersion: lastReviewPromptVersion) else { return }

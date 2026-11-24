@@ -9,6 +9,15 @@ final class ReviewPromptPolicyTests: XCTestCase {
         XCTAssertTrue(ReviewPromptPolicy.shouldRequest(newlySavedCount: 3, appVersion: "1.1", lastRequestedVersion: "1.0.3"))
     }
 
+    func testDelayedCompletionRequiresTheSameVisibleJob() {
+        var job = ImportJob(source: .init(kind: .zip, name: "photos.zip", bookmark: Data()), items: [])
+        job.phase = .completed
+        XCTAssertTrue(ReviewPromptPolicy.isShowingCompletion(job: job, finishedID: job.id, detailID: job.id))
+        XCTAssertFalse(ReviewPromptPolicy.isShowingCompletion(job: job, finishedID: job.id, detailID: nil))
+        XCTAssertFalse(ReviewPromptPolicy.isShowingCompletion(job: nil, finishedID: job.id, detailID: nil))
+        XCTAssertFalse(ReviewPromptPolicy.isShowingCompletion(job: job, finishedID: UUID(), detailID: job.id))
+    }
+
     func testNeverAsksWhenNothingNewWasSaved() {
         // An import whose items were all skipped as already imported is not a
         // finished task worth a rating prompt.
