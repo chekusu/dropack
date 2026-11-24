@@ -2,6 +2,20 @@ import XCTest
 @testable import RelayCore
 
 final class ReceivedAlbumTests: XCTestCase {
+    func testLibraryWriteFailurePreservesDurableSelection() throws {
+        let folder = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        defer { try? FileManager.default.removeItem(at: folder) }
+        let selected = CheckpointStore(url: folder.appendingPathComponent("progress.json"))
+        let original = ImportJob(source: .init(kind: .zip, name: "old.zip", bookmark: Data()), items: [])
+        let replacement = ImportJob(source: .init(kind: .zip, name: "new.zip", bookmark: Data()), items: [])
+        try selected.save(original)
+        let blocked = folder.appendingPathComponent("library")
+        try Data().write(to: blocked)
+        let store = ReceivedAlbumStore(directory: blocked)
+        XCTAssertThrowsError(try store.saveSelected(replacement, checkpoint: selected))
+        XCTAssertEqual(try selected.load()?.id, original.id)
+    }
+
     func testStableAlbumRevisionPolicyIgnoresNameAndRejectsOldSnapshots() throws {
         let source = SourceDescriptor(kind: .zip, name: "holiday.dropack", bookmark: Data())
         var first = ImportJob(source: source, items: [])

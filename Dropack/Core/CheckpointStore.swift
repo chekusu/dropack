@@ -30,9 +30,10 @@ public struct CheckpointStore: Sendable {
         try FileManager.default.createDirectory(at: url.deletingLastPathComponent(), withIntermediateDirectories: true)
         let encoder = JSONEncoder(); encoder.outputFormatting = [.sortedKeys]
         let data = try encoder.encode(job)
-        try data.write(to: url, options: .atomic)
         #if os(iOS)
-        try FileManager.default.setAttributes([.protectionKey: FileProtectionType.completeUntilFirstUserAuthentication], ofItemAtPath: url.path)
+        try data.write(to: url, options: [.atomic, .completeFileProtectionUntilFirstUserAuthentication])
+        #else
+        try data.write(to: url, options: .atomic)
         #endif
     }
 

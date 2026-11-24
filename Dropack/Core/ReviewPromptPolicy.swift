@@ -16,6 +16,11 @@ public enum ReviewPromptPolicy {
         return normalized(lastRequestedVersion) != version
     }
 
+    public static func isShowingCompletion(job: ImportJob?, finishedID: UUID, detailID: UUID?) -> Bool {
+        guard let job, job.phase == .completed, job.id == finishedID else { return false }
+        return detailID == (job.isSharedAlbum ? job.albumID : job.id)
+    }
+
     private static func normalized(_ version: String?) -> String? {
         guard let trimmed = version?.trimmingCharacters(in: .whitespacesAndNewlines),
               !trimmed.isEmpty else { return nil }

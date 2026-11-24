@@ -31,6 +31,14 @@ public struct ReceivedAlbumStore: Sendable {
         try CheckpointStore(url: root.appendingPathComponent(classified.albumID.uuidString + ".json")).save(classified)
     }
 
+    /// Publish the selected task only after its resumable library checkpoint is durable.
+    /// If the selection write fails, the previous selection stays active and the candidate
+    /// can still be found in the library and selected again.
+    public func saveSelected(_ job: ImportJob, checkpoint: CheckpointStore) throws {
+        try save(job)
+        try checkpoint.save(job)
+    }
+
     /// These are checkpoints, not user-visible shared albums. Retaining them makes
     /// switching sources reversible until the user finishes or clears the import.
     public func loadOneTimeImports() throws -> [ImportJob] {

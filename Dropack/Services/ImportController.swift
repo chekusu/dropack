@@ -911,7 +911,7 @@ final class ImportController: ObservableObject {
             try persist(candidate)
             message = candidate.lastMessage
             if candidate.phase == .completed, !stopRequested, savedThisRun > 0 {
-                finishedImport = FinishedImport(newlySavedCount: savedThisRun)
+                finishedImport = FinishedImport(jobID: candidate.id, newlySavedCount: savedThisRun)
             }
         } catch {
             stopForJournalError(error, candidate: candidate)
@@ -1038,8 +1038,7 @@ final class ImportController: ObservableObject {
     private func persist(_ candidate: ImportJob) throws {
         var candidate = candidate
         candidate.migrateImportPurpose()
-        try checkpoint.save(candidate)
-        try receivedStore.save(candidate)
+        try receivedStore.saveSelected(candidate, checkpoint: checkpoint)
         upsertLibrary(candidate)
         job = candidate
     }
@@ -1201,6 +1200,7 @@ final class ImportController: ObservableObject {
 
 struct FinishedImport: Identifiable, Equatable {
     let id = UUID()
+    let jobID: UUID
     let newlySavedCount: Int
 }
 
